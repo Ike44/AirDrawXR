@@ -30,6 +30,11 @@ Detects hand landmarks via the Homuler MediaPipe Unity plugin. Run in the Unity 
 
 ## Building to iOS
 
+### Here is a Google Drive link to a built project. Just download the folder as a zip, extract, run xcodeproj file and then sign the build as explained below and run the project.
+### https://drive.google.com/drive/folders/11tmVBEcCXhbHU8OIOD0kTI0ulvLMJT6F?usp=sharing 
+
+
+
 Follow these steps to build and run **Demo1** on your iOS device:
 
 1. **Install & Configure Unity**  
