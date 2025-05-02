@@ -1,0 +1,2881 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct ValidationUtility_1_tC497E899B80A0B87F5AC6C73AB295D6F5B2683EF;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8;
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
+struct Type_t;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t2ABA7AFB6E8DF44286FDFC65DE7FA578EF4D8291;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRFaceSubsystem_t93DD9DDD21C06E5A591BB0094512BC8FD8A890D3;
+struct XRFaceSubsystemDescriptor_t44596C9878EB76583452C5F5BF6FA78FA9EB171F;
+struct ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5;
+struct Provider_t7030F6D06C0B37E868033A148F7C8615413D5322;
+
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_XR_ARKit_FaceTracking[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_XR_ARSubsystems[];
+IL2CPP_EXTERN_C RuntimeClass* ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D____42B0F3DEC62912298A03120D5874FDD82AD08F661EEF362BEDC9A646C8E6BFE3_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D____B2D3FAECDFBF0687E588A607BF69A26CEAFA095479D515D6E93D5F6628EAF55F_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteralB4864243BC84ACADEEAE7751496ED8C4C00A9169;
+IL2CPP_EXTERN_C String_t* _stringLiteralC70789B813AA25F15148570659DC1F9598DED559;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitBlendShapeCoefficient_Equals_m87EE75C073EA271F121C6A4E9F83A0D1DA7F295E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitBlendShapeCoefficient_GetHashCode_m3F6A13B3D637039D5ED1E835809E2172EF67E652_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitBlendShapeCoefficient_op_Equality_m3A3E0076D01FF78D80B025C1C5C85836C22D828F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitBlendShapeCoefficient_op_Inequality_m9331AC4D231D394B4D5FC21F13297BEF186BF3BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_GetBlendShapeCoefficients_m5545891E336BEAAD99969E3F49B3B304AC6680A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_RegisterDescriptor_m03ED8D826DE70607A77C02E8A833263750199E49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireChanges_m916A830D7A4A72664343B2BB621C136D5CC388A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireFaceAnchor_m55C1054891F083234BEED7BEC08C94155F81E186_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_DeallocateTempMemory_m17D539860EE21314C82D5DF3BFB61BC4A2F4C521_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_GetMaximumFaceCount_m36DDA9BE9EFC1C5E2AA89CF58B5294FD60ECA5D9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_GetRequestedMaximumFaceCount_m31E87814E2F50BAEC8215F38E5FEF016D82FA9E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_GetSupportedFaceCount_m6BCEA2067F06CA7B610D133EA0728B06EE7DE26F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_Initialize_m15F37E0C4AC297551E1B3EFC6FA549BF80A62F6B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_IsEyeTrackingSupported_mE726F2F013169CBEB4A1A063DEFD28988F21F40B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_IsSupported_mEA42433142BB1F5AEA7552B488868898EADF24DB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_OnRegisterDescriptor_mEE2FC06CB7411E7ADD080679867E9F9A3CA68C70_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseChanges_m91CCB21474CA1ACBD6BBDFDACED52F3D74F173E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseFaceAnchor_mE5C53D01751E620B2EBC7DE3536FD01F20C83B19_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_SetRequestedMaximumFaceCount_mF0C50D6689BB4E37959E555BC02DD33FEFB4FEC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_Shutdown_mBFABB28A46C0740EB7534F553ACF25FB0782160C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_Start_m84297E297D9CC37F933B6D49E611ED3E79F7C775_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_Stop_m69DBAAFA741CDBE0EE163458094A141F3C5561B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem_UnityARKit_FaceProvider_TryAcquireFaceBlendCoefficients_m10E52A93B2E8E1CF8F6A985F55DDB17F2A8F6AED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem__cctor_mAB9A2765F461EEA54EB04B3E5068B8516B1CB205_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitFaceSubsystem__ctor_mE938A16A2983EC1725276F9FCCEB59049E14AD62_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_Destroy_m993DC61D1B2527ECE006FFA8FC08C8DD7F5C70D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_GetChanges_mDB3CFE00BB4A2DA2A3D6DE1AD59F55BAC29A6E67_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_GetFaceMesh_m10FD94955FFE74FB19D1E2FD9DA8548E27B988DF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_Start_m4E6B0120294D8151FA95160A4580C963AE64A596_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_Stop_m46D064DB6A26D7BAC04BA81B40F0F3FFCBF4621D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider__ctor_mE557240F7376917F2D01821CC7EB57FF4CB95F0D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_get_currentMaximumFaceCount_mA38CCAD7F0E8E4D02B02DFBFED16297E8CF80BB2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_get_requestedMaximumFaceCount_mA0E4A22844C8C0ECCE8E8CF51C1765A6560FBF77_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_get_supportedFaceCount_m3901671236CB9A1E676C20F4FA2B4EB30602074B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARKitProvider_set_requestedMaximumFaceCount_m5B38F90AC10B8B6475519F141008FF55E2B71CB6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Cinfo_set_id_mDA1C59B59BB5F9D03D221DA9869977543B70C441_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Cinfo_set_providerType_mF768B68E006C63A92846B1847C5E856957A3E8D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Cinfo_set_subsystemTypeOverride_mBF153FFAF78FFFF644E207F4968F54B2DF3173B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IJobParallelForExtensions_Schedule_TisTransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_m43FFDEED4B40782E22EEB50037D80B3172011854_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IJobParallelForExtensions_Schedule_TisTransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_m4C9E8A99FF0ED9EEAF159D232AF005C8FDD5C708_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IJobParallelForExtensions_Schedule_TisTransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_m4403F37A211DB7E2ECA2AFA67EB010E4B11D5D71_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_m21C6ED8E0F3E403C9590BE83298AB1FBDF00A066_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6_mCD59702A2CA7EABCC88D91FFBEFC0B54B957043D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58_m2019AB592EFCBC83D1AE02AEDCAA1FBFB1F201AA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8CC23F9B357DD3415FAB8C319466BEAA6365AF44_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7EEC18D0EF945E4DD139A82B595A3BC1747697C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_CopyFrom_m9DBC32E1B174CBF311A79E8BEC30802FA2BA8F85_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TransformIndicesJob_Execute_m2364D4FF933D69C795F64D43A8AB13D5F2D0EA00_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TransformUVsJob_Execute_mD9162A35AE0A0E866BC3DC772C46BAA72CC50B16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TransformVerticesJob_Execute_mFE8F3FE2DBA23BB4024E72E08442A01EF412CDD5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Triangle_1__ctor_mF5DB3763AC18C3D57605B767344449B6B45C868C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA1C328A1DAF22819A541271552BB8D79782316CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0FFCE5856E463E0F8FD4C5D70B8B0CDFA9F73A82_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRFaceMesh_get_indices_m2658965B1B99DF1CF00154D791B580AE71CB136D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRFaceMesh_get_uvs_m71BF16345717D8B5D8F41C571A8D3152337E0A28_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRFaceMesh_get_vertices_m8B133063FC373FD34B8ECBEE696B3462DC65277E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4_0_0_0_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t2FEBD93213E39A725D58489F64F863AA569404AB 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D  : public RuntimeObject
+{
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455  : public RuntimeObject
+{
+	bool ___m_Running;
+};
+struct SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242  : public RuntimeObject
+{
+	bool ___U3CrunningU3Ek__BackingField;
+	SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455* ___U3CproviderBaseU3Ek__BackingField;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t2ABA7AFB6E8DF44286FDFC65DE7FA578EF4D8291  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct SubsystemProvider_1_t96CFB39FD0C0E7ABD02483062352B397EEF99673  : public SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455
+{
+};
+struct SubsystemWithProvider_3_tA1749F0C228B01A69561A8CB18B26398D30CAD16  : public SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242
+{
+	XRFaceSubsystemDescriptor_t44596C9878EB76583452C5F5BF6FA78FA9EB171F* ___U3CsubsystemDescriptorU3Ek__BackingField;
+	Provider_t7030F6D06C0B37E868033A148F7C8615413D5322* ___U3CproviderU3Ek__BackingField;
+};
+struct Triangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58 
+{
+	int16_t ___a;
+	int16_t ___b;
+	int16_t ___c;
+};
+struct Triangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6 
+{
+	int32_t ___a;
+	int32_t ___b;
+	int32_t ___c;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
+{
+	int16_t ___m_value;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 
+{
+	uint64_t ___jobGroup;
+	int32_t ___version;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 
+{
+	uint64_t ___m_SubId1;
+	uint64_t ___m_SubId2;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D216_tB7F126942FCDDAC3DDBD72996ABB50CD043552CB 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D216_tB7F126942FCDDAC3DDBD72996ABB50CD043552CB__padding[216];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D452_t68C8D356B97918CC94372B4D73555F9D107D7DD5 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D452_t68C8D356B97918CC94372B4D73555F9D107D7DD5__padding[452];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct TrackingSubsystem_4_tEA0279A96F3287722503588C643D03B2C206613A  : public SubsystemWithProvider_3_tA1749F0C228B01A69561A8CB18B26398D30CAD16
+{
+};
+struct ARKitBlendShapeLocation_tA871CC1FC07B6224EB238172370C4721872C5F75 
+{
+	int32_t ___value__;
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct FaceSubsystemCapabilities_t01B81E261AE2D2C47BC2855814C8AB313B187355 
+{
+	int32_t ___value__;
+};
+struct NativeArrayOptions_t3E979EEF4B4840228A7692A97DA07553C6465F1D 
+{
+	int32_t ___value__;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct TrackingState_t5487241B6888BB15D8448EBBC640835A011DBBC2 
+{
+	int32_t ___value__;
+};
+struct Attributes_t0EF0814949B9D8BD31B2687360F78AD6086B0C9D 
+{
+	int32_t ___value__;
+};
+struct Provider_t7030F6D06C0B37E868033A148F7C8615413D5322  : public SubsystemProvider_1_t96CFB39FD0C0E7ABD02483062352B397EEF99673
+{
+	int32_t ___m_RequestedMaximumFaceCount;
+};
+struct NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 
+{
+	int32_t ___m_BlendShapeLocation;
+	float ___m_Coefficient;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB 
+{
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___m_TrackableId;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_Pose;
+	int32_t ___m_TrackingState;
+	intptr_t ___m_NativePtr;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_LeftEyePose;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RightEyePose;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FixationPoint;
+};
+struct XRFaceSubsystem_t93DD9DDD21C06E5A591BB0094512BC8FD8A890D3  : public TrackingSubsystem_4_tEA0279A96F3287722503588C643D03B2C206613A
+{
+	ValidationUtility_1_tC497E899B80A0B87F5AC6C73AB295D6F5B2683EF* ___m_ValidationUtility;
+};
+struct ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5  : public Provider_t7030F6D06C0B37E868033A148F7C8615413D5322
+{
+};
+struct Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD 
+{
+	String_t* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	int32_t ___m_Capabilities;
+};
+struct Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD_marshaled_pinvoke
+{
+	char* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	int32_t ___m_Capabilities;
+};
+struct Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD_marshaled_com
+{
+	Il2CppChar* ___U3CidU3Ek__BackingField;
+	Type_t* ___U3CproviderTypeU3Ek__BackingField;
+	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
+	int32_t ___m_Capabilities;
+};
+struct TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119 
+{
+	NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 ___m_Added;
+	NativeArray_1_t944085523DA105D6BBD308E9159C874CE60B3009 ___m_Updated;
+	NativeArray_1_t7A26520FDE477098D7B2CC8D14E778889D50A15E ___m_Removed;
+	bool ___U3CisCreatedU3Ek__BackingField;
+};
+struct ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3  : public XRFaceSubsystem_t93DD9DDD21C06E5A591BB0094512BC8FD8A890D3
+{
+};
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4 
+{
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_Vertices;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___m_Normals;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___m_Indices;
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___m_UVs;
+};
+struct TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595 
+{
+	NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D ___triangleIndicesIn;
+	NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86 ___triangleIndicesOut;
+};
+struct TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7 
+{
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___uvsIn;
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 ___uvsOut;
+};
+struct TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D 
+{
+	NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8 ___verticesIn;
+	NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD ___verticesOut;
+};
+struct U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D452_t68C8D356B97918CC94372B4D73555F9D107D7DD5 ___42B0F3DEC62912298A03120D5874FDD82AD08F661EEF362BEDC9A646C8E6BFE3;
+	__StaticArrayInitTypeSizeU3D216_tB7F126942FCDDAC3DDBD72996ABB50CD043552CB ___B2D3FAECDFBF0687E588A607BF69A26CEAFA095479D515D6E93D5F6628EAF55F;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_StaticFields
+{
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___s_TrackableIdRegex;
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___s_InvalidId;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_StaticFields
+{
+	XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___s_Default;
+};
+struct ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields
+{
+	String_t* ___k_ExceptionMsg;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B_gshared (NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_m21C6ED8E0F3E403C9590BE83298AB1FBDF00A066_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_CopyFrom_m9DBC32E1B174CBF311A79E8BEC30802FA2BA8F85_gshared (NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E* __this, NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E ___0_array, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7EEC18D0EF945E4DD139A82B595A3BC1747697C2_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForExtensions_Schedule_TisTransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_m4403F37A211DB7E2ECA2AFA67EB010E4B11D5D71_gshared (TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D ___0_jobData, int32_t ___1_arrayLength, int32_t ___2_innerloopBatchCount, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8CC23F9B357DD3415FAB8C319466BEAA6365AF44_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForExtensions_Schedule_TisTransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_m4C9E8A99FF0ED9EEAF159D232AF005C8FDD5C708_gshared (TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7 ___0_jobData, int32_t ___1_arrayLength, int32_t ___2_innerloopBatchCount, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58_m2019AB592EFCBC83D1AE02AEDCAA1FBFB1F201AA_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_gshared (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___0_nativeArray, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6_mCD59702A2CA7EABCC88D91FFBEFC0B54B957043D_gshared (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForExtensions_Schedule_TisTransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_m43FFDEED4B40782E22EEB50037D80B3172011854_gshared (TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595 ___0_jobData, int32_t ___1_arrayLength, int32_t ___2_innerloopBatchCount, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B_gshared (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Triangle_1__ctor_mF5DB3763AC18C3D57605B767344449B6B45C868C_gshared (Triangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6* __this, int32_t ___0_a, int32_t ___1_b, int32_t ___2_c, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_inline (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_inline (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9 (float* __this, float ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitBlendShapeCoefficient_Equals_m87EE75C073EA271F121C6A4E9F83A0D1DA7F295E (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2 (float* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitBlendShapeCoefficient_GetHashCode_m3F6A13B3D637039D5ED1E835809E2172EF67E652 (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742 (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitFaceSubsystem_UnityARKit_FaceProvider_TryAcquireFaceBlendCoefficients_m10E52A93B2E8E1CF8F6A985F55DDB17F2A8F6AED (TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___0_faceId, intptr_t* ___1_ptrBlendCoefficientData, int32_t* ___2_numArrayBlendCoefficients, const RuntimeMethod* method) ;
+inline void NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B (NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_DeallocateTempMemory_m17D539860EE21314C82D5DF3BFB61BC4A2F4C521 (intptr_t ___0_ptr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF (intptr_t ___0_value, const RuntimeMethod* method) ;
+inline NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_m21C6ED8E0F3E403C9590BE83298AB1FBDF00A066 (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_m21C6ED8E0F3E403C9590BE83298AB1FBDF00A066_gshared)(___0_dataPointer, ___1_length, ___2_allocator, method);
+}
+inline void NativeArray_1_CopyFrom_m9DBC32E1B174CBF311A79E8BEC30802FA2BA8F85 (NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E* __this, NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E ___0_array, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E*, NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E, const RuntimeMethod*))NativeArray_1_CopyFrom_m9DBC32E1B174CBF311A79E8BEC30802FA2BA8F85_gshared)(__this, ___0_array, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitFaceSubsystem_UnityARKit_FaceProvider_IsSupported_mEA42433142BB1F5AEA7552B488868898EADF24DB (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_OnRegisterDescriptor_mEE2FC06CB7411E7ADD080679867E9F9A3CA68C70 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cinfo_set_supportsFacePose_mCA30034080191D1D801FD197DF5BC24A46525840 (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cinfo_set_supportsFaceMeshVerticesAndIndices_mE31A80911D69B2DE3A44421ABC3E336E5FDF8E69 (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cinfo_set_supportsFaceMeshUVs_m17E199E0DFE85ACB2310301D8999271F0E6E7B26 (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitFaceSubsystem_UnityARKit_FaceProvider_IsEyeTrackingSupported_mE726F2F013169CBEB4A1A063DEFD28988F21F40B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cinfo_set_supportsEyeTracking_m832252A4E42CAF0E4F09E513D0E4EF4B8C244EDB (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_mDA1C59B59BB5F9D03D221DA9869977543B70C441_inline (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_mF768B68E006C63A92846B1847C5E856957A3E8D4_inline (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, Type_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemTypeOverride_mBF153FFAF78FFFF644E207F4968F54B2DF3173B3_inline (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, Type_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRFaceSubsystemDescriptor_Register_m5D83DDFFAD9B6D85CBB3040A74397A955422A263 (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD ___0_cinfo, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRFaceSubsystem__ctor_m31F1B0D8DDB368C87E5691F6C114E926155ED9D5 (XRFaceSubsystem_t93DD9DDD21C06E5A591BB0094512BC8FD8A890D3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider__ctor_m41CCFF923C16D17CC1297FE5FF752330D8CD1BBD (Provider_t7030F6D06C0B37E868033A148F7C8615413D5322* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Initialize_m15F37E0C4AC297551E1B3EFC6FA549BF80A62F6B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Start_m84297E297D9CC37F933B6D49E611ED3E79F7C775 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Stop_m69DBAAFA741CDBE0EE163458094A141F3C5561B9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Shutdown_mBFABB28A46C0740EB7534F553ACF25FB0782160C (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireFaceAnchor_m55C1054891F083234BEED7BEC08C94155F81E186 (TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___0_faceId, void** ___1_vertexPtr, void** ___2_uvPtr, int32_t* ___3_vertexCount, void** ___4_indexPtr, int32_t* ___5_triangleCount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRFaceMesh_Dispose_m02478E536865BA52126039CCAE5B62E5DE58AECF (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseFaceAnchor_mE5C53D01751E620B2EBC7DE3536FD01F20C83B19 (void* ___0_faceAnchor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRFaceMesh_Resize_mD9373FB138642F70F4068345A64B49B64B1A3830 (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, int32_t ___0_vertexCount, int32_t ___1_triangleCount, int32_t ___2_attributes, int32_t ___3_allocator, const RuntimeMethod* method) ;
+inline NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7EEC18D0EF945E4DD139A82B595A3BC1747697C2 (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8 (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7EEC18D0EF945E4DD139A82B595A3BC1747697C2_gshared)(___0_dataPointer, ___1_length, ___2_allocator, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD XRFaceMesh_get_vertices_m8B133063FC373FD34B8ECBEE696B3462DC65277E_inline (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, const RuntimeMethod* method) ;
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForExtensions_Schedule_TisTransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_m4403F37A211DB7E2ECA2AFA67EB010E4B11D5D71 (TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D ___0_jobData, int32_t ___1_arrayLength, int32_t ___2_innerloopBatchCount, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D, int32_t, int32_t, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))IJobParallelForExtensions_Schedule_TisTransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_m4403F37A211DB7E2ECA2AFA67EB010E4B11D5D71_gshared)(___0_jobData, ___1_arrayLength, ___2_innerloopBatchCount, ___3_dependsOn, method);
+}
+inline NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8CC23F9B357DD3415FAB8C319466BEAA6365AF44 (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8CC23F9B357DD3415FAB8C319466BEAA6365AF44_gshared)(___0_dataPointer, ___1_length, ___2_allocator, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 XRFaceMesh_get_uvs_m71BF16345717D8B5D8F41C571A8D3152337E0A28_inline (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, const RuntimeMethod* method) ;
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForExtensions_Schedule_TisTransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_m4C9E8A99FF0ED9EEAF159D232AF005C8FDD5C708 (TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7 ___0_jobData, int32_t ___1_arrayLength, int32_t ___2_innerloopBatchCount, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7, int32_t, int32_t, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))IJobParallelForExtensions_Schedule_TisTransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_m4C9E8A99FF0ED9EEAF159D232AF005C8FDD5C708_gshared)(___0_jobData, ___1_arrayLength, ___2_innerloopBatchCount, ___3_dependsOn, method);
+}
+inline NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58_m2019AB592EFCBC83D1AE02AEDCAA1FBFB1F201AA (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58_m2019AB592EFCBC83D1AE02AEDCAA1FBFB1F201AA_gshared)(___0_dataPointer, ___1_length, ___2_allocator, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C XRFaceMesh_get_indices_m2658965B1B99DF1CF00154D791B580AE71CB136D_inline (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, const RuntimeMethod* method) ;
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144 (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___0_nativeArray, const RuntimeMethod* method)
+{
+	return ((  void* (*) (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_gshared)(___0_nativeArray, method);
+}
+inline NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86 NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6_mCD59702A2CA7EABCC88D91FFBEFC0B54B957043D (void* ___0_dataPointer, int32_t ___1_length, int32_t ___2_allocator, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86 (*) (void*, int32_t, int32_t, const RuntimeMethod*))NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6_mCD59702A2CA7EABCC88D91FFBEFC0B54B957043D_gshared)(___0_dataPointer, ___1_length, ___2_allocator, method);
+}
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForExtensions_Schedule_TisTransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_m43FFDEED4B40782E22EEB50037D80B3172011854 (TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595 ___0_jobData, int32_t ___1_arrayLength, int32_t ___2_innerloopBatchCount, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595, int32_t, int32_t, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))IJobParallelForExtensions_Schedule_TisTransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_m43FFDEED4B40782E22EEB50037D80B3172011854_gshared)(___0_jobData, ___1_arrayLength, ___2_innerloopBatchCount, ___3_dependsOn, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 JobHandle_CombineDependencies_m04CF8109A4E3FD4EF9BB6536C3F4E861DBBC0965 (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_job0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_job1, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___2_job2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireChanges_m916A830D7A4A72664343B2BB621C136D5CC388A2 (void** ___0_addedPtr, int32_t* ___1_addedLength, void** ___2_updatedPtr, int32_t* ___3_updatedLength, void** ___4_removedPtr, int32_t* ___5_removedLength, int32_t* ___6_elementSize, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseChanges_m91CCB21474CA1ACBD6BBDFDACED52F3D74F173E3 (void* ___0_context, const RuntimeMethod* method) ;
+inline void TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119* __this, void* ___0_addedPtr, int32_t ___1_addedCount, void* ___2_updatedPtr, int32_t ___3_updatedCount, void* ___4_removedPtr, int32_t ___5_removedCount, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___6_defaultT, int32_t ___7_stride, int32_t ___8_allocator, const RuntimeMethod* method)
+{
+	((  void (*) (TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119*, void*, int32_t, void*, int32_t, void*, int32_t, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB, int32_t, int32_t, const RuntimeMethod*))TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B_gshared)(__this, ___0_addedPtr, ___1_addedCount, ___2_updatedPtr, ___3_updatedCount, ___4_removedPtr, ___5_removedCount, ___6_defaultT, ___7_stride, ___8_allocator, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitFaceSubsystem_UnityARKit_FaceProvider_GetSupportedFaceCount_m6BCEA2067F06CA7B610D133EA0728B06EE7DE26F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitFaceSubsystem_UnityARKit_FaceProvider_GetMaximumFaceCount_m36DDA9BE9EFC1C5E2AA89CF58B5294FD60ECA5D9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitFaceSubsystem_UnityARKit_FaceProvider_GetRequestedMaximumFaceCount_m31E87814E2F50BAEC8215F38E5FEF016D82FA9E1 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_SetRequestedMaximumFaceCount_mF0C50D6689BB4E37959E555BC02DD33FEFB4FEC4 (int32_t ___0_count, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void TransformVerticesJob_Execute_mFE8F3FE2DBA23BB4024E72E08442A01EF412CDD5 (TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void TransformUVsJob_Execute_mD9162A35AE0A0E866BC3DC772C46BAA72CC50B16 (TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
+inline void Triangle_1__ctor_mF5DB3763AC18C3D57605B767344449B6B45C868C (Triangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6* __this, int32_t ___0_a, int32_t ___1_b, int32_t ___2_c, const RuntimeMethod* method)
+{
+	((  void (*) (Triangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6*, int32_t, int32_t, int32_t, const RuntimeMethod*))Triangle_1__ctor_mF5DB3763AC18C3D57605B767344449B6B45C868C_gshared)(__this, ___0_a, ___1_b, ___2_c, method);
+}
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void TransformIndicesJob_Execute_m2364D4FF933D69C795F64D43A8AB13D5F2D0EA00 (TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA1C328A1DAF22819A541271552BB8D79782316CD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D____42B0F3DEC62912298A03120D5874FDD82AD08F661EEF362BEDC9A646C8E6BFE3_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D____B2D3FAECDFBF0687E588A607BF69A26CEAFA095479D515D6E93D5F6628EAF55F_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA1C328A1DAF22819A541271552BB8D79782316CD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA1C328A1DAF22819A541271552BB8D79782316CD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 3));
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)216));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D____B2D3FAECDFBF0687E588A607BF69A26CEAFA095479D515D6E93D5F6628EAF55F_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 4));
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 4));
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)452));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tCC31800615B73FF1F6B1E50BDCD7C41FEBA3999D____42B0F3DEC62912298A03120D5874FDD82AD08F661EEF362BEDC9A646C8E6BFE3_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 5));
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 5));
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 2;
+		(&V_0)->___TotalTypes = 7;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86 L_6 = V_0;
+		V_1 = L_6;
+		goto IL_005d;
+	}
+
+IL_005d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 6));
+		MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86 L_7 = V_1;
+		return L_7;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0FFCE5856E463E0F8FD4C5D70B8B0CDFA9F73A82 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t2ABA7AFB6E8DF44286FDFC65DE7FA578EF4D8291* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0FFCE5856E463E0F8FD4C5D70B8B0CDFA9F73A82_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0FFCE5856E463E0F8FD4C5D70B8B0CDFA9F73A82_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshal_pinvoke(const MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86& unmarshaled, MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshal_pinvoke_back(const MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_pinvoke& marshaled, MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshal_pinvoke_cleanup(MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshal_com(const MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86& unmarshaled, MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshal_com_back(const MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_com& marshaled, MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshal_com_cleanup(MonoScriptData_tCE8B403E243D3467D76DEB2DA38E5E07BE10CC86_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414 (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 8));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 9));
+		int32_t L_0 = __this->___m_BlendShapeLocation;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 10));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 11));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 12));
+		float L_0 = __this->___m_Coefficient;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92*>(__this + _offset);
+	float _returnValue;
+	_returnValue = ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 13));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 14));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 15));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 16));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 17));
+		int32_t L_0;
+		L_0 = ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 17));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 18));
+		int32_t L_1;
+		L_1 = ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_inline((&___0_other), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 18));
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 19));
+		float L_2;
+		L_2 = ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 19));
+		V_0 = L_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 20));
+		float L_3;
+		L_3 = ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_inline((&___0_other), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 20));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 21));
+		bool L_4;
+		L_4 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9((&V_0), L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 21));
+		G_B3_0 = ((int32_t)(L_4));
+		goto IL_0028;
+	}
+
+IL_0027:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0028:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 22));
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C  bool ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C_AdjustorThunk (RuntimeObject* __this, ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 ___0_other, const RuntimeMethod* method)
+{
+	ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitBlendShapeCoefficient_Equals_m87EE75C073EA271F121C6A4E9F83A0D1DA7F295E (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_Equals_m87EE75C073EA271F121C6A4E9F83A0D1DA7F295E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_Equals_m87EE75C073EA271F121C6A4E9F83A0D1DA7F295E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 23));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 24));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 25));
+		RuntimeObject* L_0 = ___0_obj;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_obj;
+		V_0 = ((*(ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92*)UnBox(L_1, ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_il2cpp_TypeInfo_var)));
+		ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 26));
+		bool L_3;
+		L_3 = ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C(__this, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 26));
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_0019;
+	}
+
+IL_0018:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0019:
+	{
+		return (bool)G_B3_0;
+	}
+}
+IL2CPP_EXTERN_C  bool ARKitBlendShapeCoefficient_Equals_m87EE75C073EA271F121C6A4E9F83A0D1DA7F295E_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = ARKitBlendShapeCoefficient_Equals_m87EE75C073EA271F121C6A4E9F83A0D1DA7F295E(_thisAdjusted, ___0_obj, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitBlendShapeCoefficient_GetHashCode_m3F6A13B3D637039D5ED1E835809E2172EF67E652 (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_GetHashCode_m3F6A13B3D637039D5ED1E835809E2172EF67E652_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_GetHashCode_m3F6A13B3D637039D5ED1E835809E2172EF67E652_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 27));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 28));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 29));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 30));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 31));
+		int32_t L_0 = __this->___m_BlendShapeLocation;
+		V_1 = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 32));
+		int32_t L_1;
+		L_1 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295((&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 32));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 33));
+		int32_t L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 34));
+		float L_3;
+		L_3 = ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 34));
+		V_2 = L_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 35));
+		int32_t L_4;
+		L_4 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2((&V_2), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 35));
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_2, ((int32_t)486187739))), L_4));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 36));
+		int32_t L_5 = V_0;
+		V_3 = L_5;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 37));
+		int32_t L_6 = V_3;
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ARKitBlendShapeCoefficient_GetHashCode_m3F6A13B3D637039D5ED1E835809E2172EF67E652_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ARKitBlendShapeCoefficient_GetHashCode_m3F6A13B3D637039D5ED1E835809E2172EF67E652(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitBlendShapeCoefficient_op_Equality_m3A3E0076D01FF78D80B025C1C5C85836C22D828F (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 ___0_lhs, ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 ___1_rhs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_op_Equality_m3A3E0076D01FF78D80B025C1C5C85836C22D828F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_op_Equality_m3A3E0076D01FF78D80B025C1C5C85836C22D828F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 38));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 39));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 40));
+		ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 L_0 = ___1_rhs;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 41));
+		bool L_1;
+		L_1 = ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C((&___0_lhs), L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 41));
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitBlendShapeCoefficient_op_Inequality_m9331AC4D231D394B4D5FC21F13297BEF186BF3BF (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 ___0_lhs, ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 ___1_rhs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_op_Inequality_m9331AC4D231D394B4D5FC21F13297BEF186BF3BF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_op_Inequality_m9331AC4D231D394B4D5FC21F13297BEF186BF3BF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 42));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 43));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 44));
+		ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92 L_0 = ___1_rhs;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 45));
+		bool L_1;
+		L_1 = ARKitBlendShapeCoefficient_Equals_m780B9E0EDE02341286FC3E873CED2046E4EEFE0C((&___0_lhs), L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 45));
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Initialize_m15F37E0C4AC297551E1B3EFC6FA549BF80A62F6B (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Initialize_m15F37E0C4AC297551E1B3EFC6FA549BF80A62F6B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_Initialize_m15F37E0C4AC297551E1B3EFC6FA549BF80A62F6B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 46));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 47));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 48));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 49));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 50));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 50));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Initialize_m15F37E0C4AC297551E1B3EFC6FA549BF80A62F6B_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Shutdown_mBFABB28A46C0740EB7534F553ACF25FB0782160C (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Shutdown_mBFABB28A46C0740EB7534F553ACF25FB0782160C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_Shutdown_mBFABB28A46C0740EB7534F553ACF25FB0782160C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 51));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 52));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 53));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 54));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 55));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 55));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Shutdown_mBFABB28A46C0740EB7534F553ACF25FB0782160C_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Start_m84297E297D9CC37F933B6D49E611ED3E79F7C775 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Start_m84297E297D9CC37F933B6D49E611ED3E79F7C775_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_Start_m84297E297D9CC37F933B6D49E611ED3E79F7C775_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 56));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 57));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 58));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 59));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 60));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 60));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Start_m84297E297D9CC37F933B6D49E611ED3E79F7C775_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_Stop_m69DBAAFA741CDBE0EE163458094A141F3C5561B9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Stop_m69DBAAFA741CDBE0EE163458094A141F3C5561B9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_Stop_m69DBAAFA741CDBE0EE163458094A141F3C5561B9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 61));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 62));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 63));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 64));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 65));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 65));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_Stop_m69DBAAFA741CDBE0EE163458094A141F3C5561B9_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitFaceSubsystem_UnityARKit_FaceProvider_TryAcquireFaceBlendCoefficients_m10E52A93B2E8E1CF8F6A985F55DDB17F2A8F6AED (TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___0_faceId, intptr_t* ___1_ptrBlendCoefficientData, int32_t* ___2_numArrayBlendCoefficients, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_TryAcquireFaceBlendCoefficients_m10E52A93B2E8E1CF8F6A985F55DDB17F2A8F6AED_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_faceId), (&___1_ptrBlendCoefficientData), (&___2_numArrayBlendCoefficients));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_TryAcquireFaceBlendCoefficients_m10E52A93B2E8E1CF8F6A985F55DDB17F2A8F6AED_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 66));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 67));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 68));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 69));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 70));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 70));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_TryAcquireFaceBlendCoefficients_m10E52A93B2E8E1CF8F6A985F55DDB17F2A8F6AED_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitFaceSubsystem_UnityARKit_FaceProvider_IsSupported_mEA42433142BB1F5AEA7552B488868898EADF24DB (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_IsSupported_mEA42433142BB1F5AEA7552B488868898EADF24DB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_IsSupported_mEA42433142BB1F5AEA7552B488868898EADF24DB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 71));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 72));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 73));
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_OnRegisterDescriptor_mEE2FC06CB7411E7ADD080679867E9F9A3CA68C70 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_OnRegisterDescriptor_mEE2FC06CB7411E7ADD080679867E9F9A3CA68C70_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_OnRegisterDescriptor_mEE2FC06CB7411E7ADD080679867E9F9A3CA68C70_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 74));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 75));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 76));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 77));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 78));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 78));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_OnRegisterDescriptor_mEE2FC06CB7411E7ADD080679867E9F9A3CA68C70_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitFaceSubsystem_UnityARKit_FaceProvider_IsEyeTrackingSupported_mE726F2F013169CBEB4A1A063DEFD28988F21F40B (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_IsEyeTrackingSupported_mE726F2F013169CBEB4A1A063DEFD28988F21F40B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_IsEyeTrackingSupported_mE726F2F013169CBEB4A1A063DEFD28988F21F40B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 79));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 80));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 81));
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_DeallocateTempMemory_m17D539860EE21314C82D5DF3BFB61BC4A2F4C521 (intptr_t ___0_ptr, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_DeallocateTempMemory_m17D539860EE21314C82D5DF3BFB61BC4A2F4C521_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_ptr));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_DeallocateTempMemory_m17D539860EE21314C82D5DF3BFB61BC4A2F4C521_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 82));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 83));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 84));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 85));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 86));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 86));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_DeallocateTempMemory_m17D539860EE21314C82D5DF3BFB61BC4A2F4C521_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireChanges_m916A830D7A4A72664343B2BB621C136D5CC388A2 (void** ___0_addedPtr, int32_t* ___1_addedLength, void** ___2_updatedPtr, int32_t* ___3_updatedLength, void** ___4_removedPtr, int32_t* ___5_removedLength, int32_t* ___6_elementSize, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireChanges_m916A830D7A4A72664343B2BB621C136D5CC388A2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_addedPtr), (&___1_addedLength), (&___2_updatedPtr), (&___3_updatedLength), (&___4_removedPtr), (&___5_removedLength), (&___6_elementSize));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireChanges_m916A830D7A4A72664343B2BB621C136D5CC388A2_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 87));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 88));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 89));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 90));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 91));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 91));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireChanges_m916A830D7A4A72664343B2BB621C136D5CC388A2_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseChanges_m91CCB21474CA1ACBD6BBDFDACED52F3D74F173E3 (void* ___0_context, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseChanges_m91CCB21474CA1ACBD6BBDFDACED52F3D74F173E3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_context));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseChanges_m91CCB21474CA1ACBD6BBDFDACED52F3D74F173E3_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 92));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 93));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 94));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 95));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 96));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 96));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseChanges_m91CCB21474CA1ACBD6BBDFDACED52F3D74F173E3_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireFaceAnchor_m55C1054891F083234BEED7BEC08C94155F81E186 (TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___0_faceId, void** ___1_vertexPtr, void** ___2_uvPtr, int32_t* ___3_vertexCount, void** ___4_indexPtr, int32_t* ___5_triangleCount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireFaceAnchor_m55C1054891F083234BEED7BEC08C94155F81E186_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_faceId), (&___1_vertexPtr), (&___2_uvPtr), (&___3_vertexCount), (&___4_indexPtr), (&___5_triangleCount));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireFaceAnchor_m55C1054891F083234BEED7BEC08C94155F81E186_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 97));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 98));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 99));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 100));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 101));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 101));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireFaceAnchor_m55C1054891F083234BEED7BEC08C94155F81E186_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseFaceAnchor_mE5C53D01751E620B2EBC7DE3536FD01F20C83B19 (void* ___0_faceAnchor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseFaceAnchor_mE5C53D01751E620B2EBC7DE3536FD01F20C83B19_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_faceAnchor));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseFaceAnchor_mE5C53D01751E620B2EBC7DE3536FD01F20C83B19_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 102));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 103));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 104));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 105));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 106));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 106));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseFaceAnchor_mE5C53D01751E620B2EBC7DE3536FD01F20C83B19_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitFaceSubsystem_UnityARKit_FaceProvider_GetSupportedFaceCount_m6BCEA2067F06CA7B610D133EA0728B06EE7DE26F (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_GetSupportedFaceCount_m6BCEA2067F06CA7B610D133EA0728B06EE7DE26F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_GetSupportedFaceCount_m6BCEA2067F06CA7B610D133EA0728B06EE7DE26F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 107));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 108));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 109));
+		return 0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitFaceSubsystem_UnityARKit_FaceProvider_GetMaximumFaceCount_m36DDA9BE9EFC1C5E2AA89CF58B5294FD60ECA5D9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_GetMaximumFaceCount_m36DDA9BE9EFC1C5E2AA89CF58B5294FD60ECA5D9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_GetMaximumFaceCount_m36DDA9BE9EFC1C5E2AA89CF58B5294FD60ECA5D9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 110));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 111));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 112));
+		return 0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_UnityARKit_FaceProvider_SetRequestedMaximumFaceCount_mF0C50D6689BB4E37959E555BC02DD33FEFB4FEC4 (int32_t ___0_count, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_SetRequestedMaximumFaceCount_mF0C50D6689BB4E37959E555BC02DD33FEFB4FEC4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_count));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_SetRequestedMaximumFaceCount_mF0C50D6689BB4E37959E555BC02DD33FEFB4FEC4_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 113));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 114));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 115));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 116));
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var)));
+		String_t* L_0 = ((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))))->___k_ExceptionMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 117));
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_1 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_1, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 117));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_SetRequestedMaximumFaceCount_mF0C50D6689BB4E37959E555BC02DD33FEFB4FEC4_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitFaceSubsystem_UnityARKit_FaceProvider_GetRequestedMaximumFaceCount_m31E87814E2F50BAEC8215F38E5FEF016D82FA9E1 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_UnityARKit_FaceProvider_GetRequestedMaximumFaceCount_m31E87814E2F50BAEC8215F38E5FEF016D82FA9E1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_UnityARKit_FaceProvider_GetRequestedMaximumFaceCount_m31E87814E2F50BAEC8215F38E5FEF016D82FA9E1_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 118));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 119));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 120));
+		return 0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E ARKitFaceSubsystem_GetBlendShapeCoefficients_m5545891E336BEAAD99969E3F49B3B304AC6680A0 (ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3* __this, TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___0_faceId, int32_t ___1_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_GetBlendShapeCoefficients_m5545891E336BEAAD99969E3F49B3B304AC6680A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_m21C6ED8E0F3E403C9590BE83298AB1FBDF00A066_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_CopyFrom_m9DBC32E1B174CBF311A79E8BEC30802FA2BA8F85_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_faceId), (&___1_allocator));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_4), (&V_5));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_GetBlendShapeCoefficients_m5545891E336BEAAD99969E3F49B3B304AC6680A0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 121));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 122));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 123));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 124));
+		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_0 = ___0_faceId;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 125));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = ARKitFaceSubsystem_UnityARKit_FaceProvider_TryAcquireFaceBlendCoefficients_m10E52A93B2E8E1CF8F6A985F55DDB17F2A8F6AED(L_0, (&V_0), (&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 125));
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		int32_t L_2 = V_1;
+		G_B3_0 = ((((int32_t)((((int32_t)L_2) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0017:
+	{
+		V_2 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 126));
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 127));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 128));
+		int32_t L_4 = ___1_allocator;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 129));
+		NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B((&L_5), 0, L_4, 1, NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 129));
+		V_3 = L_5;
+		goto IL_005b;
+	}
+
+IL_0027:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 130));
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0051:
+			{
+				STORE_TRY_ID(methodExecutionContext, -1);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 140));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 141));
+				intptr_t L_6 = V_0;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 142));
+				il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+				ARKitFaceSubsystem_UnityARKit_FaceProvider_DeallocateTempMemory_m17D539860EE21314C82D5DF3BFB61BC4A2F4C521(L_6, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 142));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 143));
+				return;
+			}
+		});
+		try
+		{
+			STORE_TRY_ID(methodExecutionContext, 0);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 131));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 132));
+			intptr_t L_7 = V_0;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 133));
+			void* L_8;
+			L_8 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_7, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 133));
+			int32_t L_9 = V_1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 134));
+			NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E L_10;
+			L_10 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_m21C6ED8E0F3E403C9590BE83298AB1FBDF00A066(L_8, L_9, 1, NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_m21C6ED8E0F3E403C9590BE83298AB1FBDF00A066_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 134));
+			V_4 = L_10;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 135));
+			int32_t L_11 = V_1;
+			int32_t L_12 = ___1_allocator;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 136));
+			NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B((&V_5), L_11, L_12, 1, NativeArray_1__ctor_mB04DECE1A68C6AE7B481CC42CD85B2C6C6C89B9B_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 136));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 137));
+			NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E L_13 = V_4;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 138));
+			NativeArray_1_CopyFrom_m9DBC32E1B174CBF311A79E8BEC30802FA2BA8F85((&V_5), L_13, NativeArray_1_CopyFrom_m9DBC32E1B174CBF311A79E8BEC30802FA2BA8F85_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 138));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 139));
+			NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E L_14 = V_5;
+			V_3 = L_14;
+			goto IL_005b;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_005b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 144));
+		NativeArray_1_t57A4323C5DA1D70B01024E0F9971C8E48DD7593E L_15 = V_3;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem_RegisterDescriptor_m03ED8D826DE70607A77C02E8A833263750199E49 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_RegisterDescriptor_m03ED8D826DE70607A77C02E8A833263750199E49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB4864243BC84ACADEEAE7751496ED8C4C00A9169);
+		s_Il2CppMethodInitialized = true;
+	}
+	Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem_RegisterDescriptor_m03ED8D826DE70607A77C02E8A833263750199E49_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 145));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 146));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 147));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 148));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 149));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = ARKitFaceSubsystem_UnityARKit_FaceProvider_IsSupported_mEA42433142BB1F5AEA7552B488868898EADF24DB(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 149));
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 150));
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 151));
+		goto IL_007f;
+	}
+
+IL_000f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 152));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 153));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		ARKitFaceSubsystem_UnityARKit_FaceProvider_OnRegisterDescriptor_mEE2FC06CB7411E7ADD080679867E9F9A3CA68C70(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 153));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 154));
+		il2cpp_codegen_initobj((&V_2), sizeof(Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 155));
+		Cinfo_set_supportsFacePose_mCA30034080191D1D801FD197DF5BC24A46525840((&V_2), (bool)1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 155));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 156));
+		Cinfo_set_supportsFaceMeshVerticesAndIndices_mE31A80911D69B2DE3A44421ABC3E336E5FDF8E69((&V_2), (bool)1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 156));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 157));
+		Cinfo_set_supportsFaceMeshUVs_m17E199E0DFE85ACB2310301D8999271F0E6E7B26((&V_2), (bool)1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 157));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 158));
+		bool L_2;
+		L_2 = ARKitFaceSubsystem_UnityARKit_FaceProvider_IsEyeTrackingSupported_mE726F2F013169CBEB4A1A063DEFD28988F21F40B(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 158));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 159));
+		Cinfo_set_supportsEyeTracking_m832252A4E42CAF0E4F09E513D0E4EF4B8C244EDB((&V_2), L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 159));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 160));
+		Cinfo_set_id_mDA1C59B59BB5F9D03D221DA9869977543B70C441_inline((&V_2), _stringLiteralB4864243BC84ACADEEAE7751496ED8C4C00A9169, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 160));
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 161));
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 161));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 162));
+		Cinfo_set_providerType_mF768B68E006C63A92846B1847C5E856957A3E8D4_inline((&V_2), L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 162));
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_0_0_0_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 163));
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 163));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 164));
+		Cinfo_set_subsystemTypeOverride_mBF153FFAF78FFFF644E207F4968F54B2DF3173B3_inline((&V_2), L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 164));
+		Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD L_7 = V_2;
+		V_0 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 165));
+		Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD L_8 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 166));
+		XRFaceSubsystemDescriptor_Register_m5D83DDFFAD9B6D85CBB3040A74397A955422A263(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 166));
+	}
+
+IL_007f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 167));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem__ctor_mE938A16A2983EC1725276F9FCCEB59049E14AD62 (ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem__ctor_mE938A16A2983EC1725276F9FCCEB59049E14AD62_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem__ctor_mE938A16A2983EC1725276F9FCCEB59049E14AD62_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		XRFaceSubsystem__ctor_m31F1B0D8DDB368C87E5691F6C114E926155ED9D5(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitFaceSubsystem__cctor_mAB9A2765F461EEA54EB04B3E5068B8516B1CB205 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem__cctor_mAB9A2765F461EEA54EB04B3E5068B8516B1CB205_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC70789B813AA25F15148570659DC1F9598DED559);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitFaceSubsystem__cctor_mAB9A2765F461EEA54EB04B3E5068B8516B1CB205_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 168));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 169));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 170));
+		((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))->___k_ExceptionMsg = _stringLiteralC70789B813AA25F15148570659DC1F9598DED559;
+		Il2CppCodeGenWriteBarrier((void**)(&((ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_StaticFields*)il2cpp_codegen_static_fields_for(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var))->___k_ExceptionMsg), (void*)_stringLiteralC70789B813AA25F15148570659DC1F9598DED559);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider__ctor_mE557240F7376917F2D01821CC7EB57FF4CB95F0D (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider__ctor_mE557240F7376917F2D01821CC7EB57FF4CB95F0D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider__ctor_mE557240F7376917F2D01821CC7EB57FF4CB95F0D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 171));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 172));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 173));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 174));
+		Provider__ctor_m41CCFF923C16D17CC1297FE5FF752330D8CD1BBD(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 174));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 175));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 176));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		ARKitFaceSubsystem_UnityARKit_FaceProvider_Initialize_m15F37E0C4AC297551E1B3EFC6FA549BF80A62F6B(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 176));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider_Start_m4E6B0120294D8151FA95160A4580C963AE64A596 (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_Start_m4E6B0120294D8151FA95160A4580C963AE64A596_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_Start_m4E6B0120294D8151FA95160A4580C963AE64A596_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 177));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 178));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 179));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 180));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		ARKitFaceSubsystem_UnityARKit_FaceProvider_Start_m84297E297D9CC37F933B6D49E611ED3E79F7C775(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 180));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider_Stop_m46D064DB6A26D7BAC04BA81B40F0F3FFCBF4621D (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_Stop_m46D064DB6A26D7BAC04BA81B40F0F3FFCBF4621D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_Stop_m46D064DB6A26D7BAC04BA81B40F0F3FFCBF4621D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 181));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 182));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 183));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 184));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		ARKitFaceSubsystem_UnityARKit_FaceProvider_Stop_m69DBAAFA741CDBE0EE163458094A141F3C5561B9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 184));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider_Destroy_m993DC61D1B2527ECE006FFA8FC08C8DD7F5C70D0 (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_Destroy_m993DC61D1B2527ECE006FFA8FC08C8DD7F5C70D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_Destroy_m993DC61D1B2527ECE006FFA8FC08C8DD7F5C70D0_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 185));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 186));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 187));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 188));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		ARKitFaceSubsystem_UnityARKit_FaceProvider_Shutdown_mBFABB28A46C0740EB7534F553ACF25FB0782160C(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 188));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider_GetFaceMesh_m10FD94955FFE74FB19D1E2FD9DA8548E27B988DF (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___0_faceId, int32_t ___1_allocator, XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* ___2_faceMesh, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_GetFaceMesh_m10FD94955FFE74FB19D1E2FD9DA8548E27B988DF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobParallelForExtensions_Schedule_TisTransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_m43FFDEED4B40782E22EEB50037D80B3172011854_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobParallelForExtensions_Schedule_TisTransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_m4C9E8A99FF0ED9EEAF159D232AF005C8FDD5C708_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobParallelForExtensions_Schedule_TisTransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_m4403F37A211DB7E2ECA2AFA67EB010E4B11D5D71_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6_mCD59702A2CA7EABCC88D91FFBEFC0B54B957043D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58_m2019AB592EFCBC83D1AE02AEDCAA1FBFB1F201AA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8CC23F9B357DD3415FAB8C319466BEAA6365AF44_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7EEC18D0EF945E4DD139A82B595A3BC1747697C2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	void* V_3 = NULL;
+	void* V_4 = NULL;
+	void* V_5 = NULL;
+	bool V_6 = false;
+	TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_faceId), (&___1_allocator), (&___2_faceMesh));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_7), (&V_8), (&V_9), (&V_10), (&V_11), (&V_12));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_GetFaceMesh_m10FD94955FFE74FB19D1E2FD9DA8548E27B988DF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 189));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 190));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 191));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 192));
+		TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 L_0 = ___0_faceId;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 193));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		void* L_1;
+		L_1 = ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireFaceAnchor_m55C1054891F083234BEED7BEC08C94155F81E186(L_0, (&V_2), (&V_4), (&V_0), (&V_3), (&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 193));
+		V_5 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 194));
+		void* L_2 = V_5;
+		V_6 = (bool)((((intptr_t)L_2) == ((intptr_t)((uintptr_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 195));
+		bool L_3 = V_6;
+		if (!L_3)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 196));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 197));
+		XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* L_4 = ___2_faceMesh;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 198));
+		XRFaceMesh_Dispose_m02478E536865BA52126039CCAE5B62E5DE58AECF(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 198));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 199));
+		XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* L_5 = ___2_faceMesh;
+		il2cpp_codegen_initobj(L_5, sizeof(XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 200));
+		goto IL_012a;
+	}
+
+IL_0033:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 201));
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_011f:
+			{
+				STORE_TRY_ID(methodExecutionContext, -1);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 226));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 227));
+				void* L_6 = V_5;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 228));
+				il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+				ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseFaceAnchor_mE5C53D01751E620B2EBC7DE3536FD01F20C83B19(L_6, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 228));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 229));
+				return;
+			}
+		});
+		try
+		{
+			STORE_TRY_ID(methodExecutionContext, 0);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 202));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 203));
+			XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* L_7 = ___2_faceMesh;
+			int32_t L_8 = V_0;
+			int32_t L_9 = V_1;
+			int32_t L_10 = ___1_allocator;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 204));
+			XRFaceMesh_Resize_mD9373FB138642F70F4068345A64B49B64B1A3830(L_7, L_8, L_9, 2, L_10, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 204));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 205));
+			il2cpp_codegen_initobj((&V_13), sizeof(TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D));
+			void* L_11 = V_2;
+			int32_t L_12 = V_0;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 206));
+			NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8 L_13;
+			L_13 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7EEC18D0EF945E4DD139A82B595A3BC1747697C2(L_11, L_12, 1, NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7EEC18D0EF945E4DD139A82B595A3BC1747697C2_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 206));
+			(&V_13)->___verticesIn = L_13;
+			XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* L_14 = ___2_faceMesh;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 207));
+			NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_15;
+			L_15 = XRFaceMesh_get_vertices_m8B133063FC373FD34B8ECBEE696B3462DC65277E_inline(L_14, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 207));
+			(&V_13)->___verticesOut = L_15;
+			TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D L_16 = V_13;
+			V_7 = L_16;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 208));
+			TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D L_17 = V_7;
+			int32_t L_18 = V_0;
+			il2cpp_codegen_initobj((&V_14), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_19 = V_14;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 209));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_20;
+			L_20 = IJobParallelForExtensions_Schedule_TisTransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_m4403F37A211DB7E2ECA2AFA67EB010E4B11D5D71(L_17, L_18, ((int32_t)32), L_19, IJobParallelForExtensions_Schedule_TisTransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_m4403F37A211DB7E2ECA2AFA67EB010E4B11D5D71_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 209));
+			V_8 = L_20;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 210));
+			il2cpp_codegen_initobj((&V_15), sizeof(TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7));
+			void* L_21 = V_4;
+			int32_t L_22 = V_0;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 211));
+			NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 L_23;
+			L_23 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8CC23F9B357DD3415FAB8C319466BEAA6365AF44(L_21, L_22, 1, NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8CC23F9B357DD3415FAB8C319466BEAA6365AF44_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 211));
+			(&V_15)->___uvsIn = L_23;
+			XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* L_24 = ___2_faceMesh;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 212));
+			NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 L_25;
+			L_25 = XRFaceMesh_get_uvs_m71BF16345717D8B5D8F41C571A8D3152337E0A28_inline(L_24, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 212));
+			(&V_15)->___uvsOut = L_25;
+			TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7 L_26 = V_15;
+			V_9 = L_26;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 213));
+			TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7 L_27 = V_9;
+			int32_t L_28 = V_0;
+			il2cpp_codegen_initobj((&V_14), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_29 = V_14;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 214));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_30;
+			L_30 = IJobParallelForExtensions_Schedule_TisTransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_m4C9E8A99FF0ED9EEAF159D232AF005C8FDD5C708(L_27, L_28, ((int32_t)32), L_29, IJobParallelForExtensions_Schedule_TisTransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_m4C9E8A99FF0ED9EEAF159D232AF005C8FDD5C708_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 214));
+			V_10 = L_30;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 215));
+			il2cpp_codegen_initobj((&V_16), sizeof(TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595));
+			void* L_31 = V_3;
+			int32_t L_32 = V_1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 216));
+			NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D L_33;
+			L_33 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58_m2019AB592EFCBC83D1AE02AEDCAA1FBFB1F201AA(L_31, L_32, 1, NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58_m2019AB592EFCBC83D1AE02AEDCAA1FBFB1F201AA_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 216));
+			(&V_16)->___triangleIndicesIn = L_33;
+			XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* L_34 = ___2_faceMesh;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 217));
+			NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_35;
+			L_35 = XRFaceMesh_get_indices_m2658965B1B99DF1CF00154D791B580AE71CB136D_inline(L_34, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 217));
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 218));
+			void* L_36;
+			L_36 = NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144(L_35, NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 218));
+			int32_t L_37 = V_1;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 219));
+			NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86 L_38;
+			L_38 = NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6_mCD59702A2CA7EABCC88D91FFBEFC0B54B957043D(L_36, L_37, 1, NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisTriangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6_mCD59702A2CA7EABCC88D91FFBEFC0B54B957043D_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 219));
+			(&V_16)->___triangleIndicesOut = L_38;
+			TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595 L_39 = V_16;
+			V_11 = L_39;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 220));
+			TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595 L_40 = V_11;
+			int32_t L_41 = V_1;
+			il2cpp_codegen_initobj((&V_14), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_42 = V_14;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 221));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_43;
+			L_43 = IJobParallelForExtensions_Schedule_TisTransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_m43FFDEED4B40782E22EEB50037D80B3172011854(L_40, L_41, ((int32_t)32), L_42, IJobParallelForExtensions_Schedule_TisTransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_m43FFDEED4B40782E22EEB50037D80B3172011854_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 221));
+			V_12 = L_43;
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 222));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_44 = V_8;
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_45 = V_12;
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_46 = V_10;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 223));
+			JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_47;
+			L_47 = JobHandle_CombineDependencies_m04CF8109A4E3FD4EF9BB6536C3F4E861DBBC0965(L_44, L_45, L_46, NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 223));
+			V_14 = L_47;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 224));
+			JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A((&V_14), NULL);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 224));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 225));
+			goto IL_012a;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_012a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 230));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119 ARKitProvider_GetChanges_mDB3CFE00BB4A2DA2A3D6DE1AD59F55BAC29A6E67 (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___0_defaultFace, int32_t ___1_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_GetChanges_mDB3CFE00BB4A2DA2A3D6DE1AD59F55BAC29A6E67_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoidU2A_t104EAEFBD2D237A8C29618913DA9B4D99355E965_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void* V_0 = NULL;
+	void* V_1 = NULL;
+	void* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	void* V_7 = NULL;
+	TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_defaultFace), (&___1_allocator));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_GetChanges_mDB3CFE00BB4A2DA2A3D6DE1AD59F55BAC29A6E67_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 231));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 232));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 233));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 234));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 235));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		void* L_0;
+		L_0 = ARKitFaceSubsystem_UnityARKit_FaceProvider_AcquireChanges_m916A830D7A4A72664343B2BB621C136D5CC388A2((&V_0), (&V_3), (&V_1), (&V_4), (&V_2), (&V_5), (&V_6), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 235));
+		V_7 = L_0;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002c:
+			{
+				STORE_TRY_ID(methodExecutionContext, -1);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 239));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 240));
+				void* L_1 = V_7;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 241));
+				il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+				ARKitFaceSubsystem_UnityARKit_FaceProvider_ReleaseChanges_m91CCB21474CA1ACBD6BBDFDACED52F3D74F173E3(L_1, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 241));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 242));
+				return;
+			}
+		});
+		try
+		{
+			STORE_TRY_ID(methodExecutionContext, 0);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 236));
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 237));
+			void* L_2 = V_0;
+			int32_t L_3 = V_3;
+			void* L_4 = V_1;
+			int32_t L_5 = V_4;
+			void* L_6 = V_2;
+			int32_t L_7 = V_5;
+			XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB L_8 = ___0_defaultFace;
+			int32_t L_9 = V_6;
+			int32_t L_10 = ___1_allocator;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 238));
+			TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119 L_11;
+			memset((&L_11), 0, sizeof(L_11));
+			TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B((&L_11), L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, TrackableChanges_1__ctor_mB6C11A3B1AA676D62783C7DAF2BE0BBA80D7874B_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 238));
+			V_8 = L_11;
+			goto IL_0037;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0037:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 243));
+		TrackableChanges_1_t244050823CF4D8F3C9DFAE4AB0CEFA639C719119 L_12 = V_8;
+		return L_12;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitProvider_get_supportedFaceCount_m3901671236CB9A1E676C20F4FA2B4EB30602074B (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_get_supportedFaceCount_m3901671236CB9A1E676C20F4FA2B4EB30602074B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_get_supportedFaceCount_m3901671236CB9A1E676C20F4FA2B4EB30602074B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 244));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 245));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 246));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 247));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = ARKitFaceSubsystem_UnityARKit_FaceProvider_GetSupportedFaceCount_m6BCEA2067F06CA7B610D133EA0728B06EE7DE26F(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 247));
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitProvider_get_currentMaximumFaceCount_mA38CCAD7F0E8E4D02B02DFBFED16297E8CF80BB2 (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_get_currentMaximumFaceCount_mA38CCAD7F0E8E4D02B02DFBFED16297E8CF80BB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_get_currentMaximumFaceCount_mA38CCAD7F0E8E4D02B02DFBFED16297E8CF80BB2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 248));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 249));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 250));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 251));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = ARKitFaceSubsystem_UnityARKit_FaceProvider_GetMaximumFaceCount_m36DDA9BE9EFC1C5E2AA89CF58B5294FD60ECA5D9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 251));
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ARKitProvider_get_requestedMaximumFaceCount_mA0E4A22844C8C0ECCE8E8CF51C1765A6560FBF77 (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_get_requestedMaximumFaceCount_mA0E4A22844C8C0ECCE8E8CF51C1765A6560FBF77_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_get_requestedMaximumFaceCount_mA0E4A22844C8C0ECCE8E8CF51C1765A6560FBF77_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 252));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 253));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 254));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 255));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = ARKitFaceSubsystem_UnityARKit_FaceProvider_GetRequestedMaximumFaceCount_m31E87814E2F50BAEC8215F38E5FEF016D82FA9E1(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 255));
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider_set_requestedMaximumFaceCount_m5B38F90AC10B8B6475519F141008FF55E2B71CB6 (ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_set_requestedMaximumFaceCount_m5B38F90AC10B8B6475519F141008FF55E2B71CB6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitProvider_tC9DB7F2938C6786F0C9A2B4F938D03480936B4D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitProvider_set_requestedMaximumFaceCount_m5B38F90AC10B8B6475519F141008FF55E2B71CB6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 256));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 257));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 258));
+		int32_t L_0 = ___0_value;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 259));
+		il2cpp_codegen_runtime_class_init_inline(ARKitFaceSubsystem_t4F84E4DD9313FD287CDBD2800AEFD79604C714B3_il2cpp_TypeInfo_var);
+		ARKitFaceSubsystem_UnityARKit_FaceProvider_SetRequestedMaximumFaceCount_mF0C50D6689BB4E37959E555BC02DD33FEFB4FEC4(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 259));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void TransformVerticesJob_Execute_mFE8F3FE2DBA23BB4024E72E08442A01EF412CDD5 (TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformVerticesJob_Execute_mFE8F3FE2DBA23BB4024E72E08442A01EF412CDD5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_i));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformVerticesJob_Execute_mFE8F3FE2DBA23BB4024E72E08442A01EF412CDD5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 260));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 261));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 262));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 263));
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD* L_0 = (NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD*)(&__this->___verticesOut);
+		int32_t L_1 = ___0_i;
+		NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8* L_2 = (NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8*)(&__this->___verticesIn);
+		int32_t L_3 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 264));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4;
+		L_4 = IL2CPP_NATIVEARRAY_GET_ITEM(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, (L_2)->___m_Buffer, L_3);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 264));
+		float L_5 = L_4.___x;
+		NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8* L_6 = (NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8*)(&__this->___verticesIn);
+		int32_t L_7 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 265));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
+		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, (L_6)->___m_Buffer, L_7);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 265));
+		float L_9 = L_8.___y;
+		NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8* L_10 = (NativeArray_1_t1319594EE236701FE431CF2885AEB88373076DA8*)(&__this->___verticesIn);
+		int32_t L_11 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 266));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12;
+		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, (L_10)->___m_Buffer, L_11);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 266));
+		float L_13 = L_12.___z;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 267));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), L_5, L_9, ((-L_13)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 267));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 268));
+		IL2CPP_NATIVEARRAY_SET_ITEM(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, (L_0)->___m_Buffer, L_1, (L_14));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 268));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 269));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void TransformVerticesJob_Execute_mFE8F3FE2DBA23BB4024E72E08442A01EF412CDD5_AdjustorThunk (RuntimeObject* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method)
+{
+	TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<TransformVerticesJob_tB73B3B24A05F858703159F015A956CDC0269606D*>(__this + _offset);
+	TransformVerticesJob_Execute_mFE8F3FE2DBA23BB4024E72E08442A01EF412CDD5(_thisAdjusted, ___0_i, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void TransformUVsJob_Execute_mD9162A35AE0A0E866BC3DC772C46BAA72CC50B16 (TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformUVsJob_Execute_mD9162A35AE0A0E866BC3DC772C46BAA72CC50B16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_i));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformUVsJob_Execute_mD9162A35AE0A0E866BC3DC772C46BAA72CC50B16_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 270));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 271));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 272));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 273));
+		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_0 = (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70*)(&__this->___uvsOut);
+		int32_t L_1 = ___0_i;
+		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_2 = (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70*)(&__this->___uvsIn);
+		int32_t L_3 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 274));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = IL2CPP_NATIVEARRAY_GET_ITEM(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, (L_2)->___m_Buffer, L_3);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 274));
+		float L_5 = L_4.___x;
+		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* L_6 = (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70*)(&__this->___uvsIn);
+		int32_t L_7 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 275));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, (L_6)->___m_Buffer, L_7);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 275));
+		float L_9 = L_8.___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 276));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_10), L_5, ((float)il2cpp_codegen_subtract((1.0f), L_9)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 276));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 277));
+		IL2CPP_NATIVEARRAY_SET_ITEM(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, (L_0)->___m_Buffer, L_1, (L_10));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 277));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 278));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void TransformUVsJob_Execute_mD9162A35AE0A0E866BC3DC772C46BAA72CC50B16_AdjustorThunk (RuntimeObject* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method)
+{
+	TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<TransformUVsJob_t07A298E668CCDA8E976E56EED5B91E0DD2B652C7*>(__this + _offset);
+	TransformUVsJob_Execute_mD9162A35AE0A0E866BC3DC772C46BAA72CC50B16(_thisAdjusted, ___0_i, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void TransformIndicesJob_Execute_m2364D4FF933D69C795F64D43A8AB13D5F2D0EA00 (TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformIndicesJob_Execute_m2364D4FF933D69C795F64D43A8AB13D5F2D0EA00_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Triangle_1__ctor_mF5DB3763AC18C3D57605B767344449B6B45C868C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_i));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TransformIndicesJob_Execute_m2364D4FF933D69C795F64D43A8AB13D5F2D0EA00_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 286));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 287));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 288));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 289));
+		NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86* L_0 = (NativeArray_1_t19C1A4B78E4EE6B30E898CA46F05F57B95753C86*)(&__this->___triangleIndicesOut);
+		int32_t L_1 = ___0_i;
+		NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D* L_2 = (NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D*)(&__this->___triangleIndicesIn);
+		int32_t L_3 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 290));
+		Triangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58 L_4;
+		L_4 = IL2CPP_NATIVEARRAY_GET_ITEM(Triangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58, (L_2)->___m_Buffer, L_3);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 290));
+		int16_t L_5 = L_4.___a;
+		NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D* L_6 = (NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D*)(&__this->___triangleIndicesIn);
+		int32_t L_7 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 291));
+		Triangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58 L_8;
+		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(Triangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58, (L_6)->___m_Buffer, L_7);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 291));
+		int16_t L_9 = L_8.___c;
+		NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D* L_10 = (NativeArray_1_tFF0A1AD8100CC0C48D1D54F522881A0BE481DA0D*)(&__this->___triangleIndicesIn);
+		int32_t L_11 = ___0_i;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 292));
+		Triangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58 L_12;
+		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(Triangle_1_tC0A74A69762E2B25BDEE64705570CBCF38444A58, (L_10)->___m_Buffer, L_11);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 292));
+		int16_t L_13 = L_12.___b;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 293));
+		Triangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Triangle_1__ctor_mF5DB3763AC18C3D57605B767344449B6B45C868C((&L_14), L_5, L_9, L_13, Triangle_1__ctor_mF5DB3763AC18C3D57605B767344449B6B45C868C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 293));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 294));
+		IL2CPP_NATIVEARRAY_SET_ITEM(Triangle_1_tBC403D17606B52595C4352DB8477CD87B74827D6, (L_0)->___m_Buffer, L_1, (L_14));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 294));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 295));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void TransformIndicesJob_Execute_m2364D4FF933D69C795F64D43A8AB13D5F2D0EA00_AdjustorThunk (RuntimeObject* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method)
+{
+	TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<TransformIndicesJob_t6325ED333C2D44C6A28FF43B005C0A30712ED595*>(__this + _offset);
+	TransformIndicesJob_Execute_m2364D4FF933D69C795F64D43A8AB13D5F2D0EA00(_thisAdjusted, ___0_i, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_inline (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_get_blendShapeLocation_mA0E78579378AC7D952CF40FDCEFEE5B622CCB414_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 8));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 9));
+		int32_t L_0 = __this->___m_BlendShapeLocation;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_inline (ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARKitBlendShapeCoefficient_t9D99DABE935CCBD07EB493FF6CC346D4D4698D92_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ARKitBlendShapeCoefficient_get_coefficient_m28E9DAF4BFA5DA0B32F868E55D6846381CC3188D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 10));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 11));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARKit_FaceTracking + 12));
+		float L_0 = __this->___m_Coefficient;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_mDA1C59B59BB5F9D03D221DA9869977543B70C441_inline (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cinfo_set_id_mDA1C59B59BB5F9D03D221DA9869977543B70C441_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Cinfo_set_id_mDA1C59B59BB5F9D03D221DA9869977543B70C441_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5118));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5119));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5120));
+		String_t* L_0 = ___0_value;
+		__this->___U3CidU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CidU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_mF768B68E006C63A92846B1847C5E856957A3E8D4_inline (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, Type_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cinfo_set_providerType_mF768B68E006C63A92846B1847C5E856957A3E8D4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Cinfo_set_providerType_mF768B68E006C63A92846B1847C5E856957A3E8D4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5124));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5125));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5126));
+		Type_t* L_0 = ___0_value;
+		__this->___U3CproviderTypeU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CproviderTypeU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemTypeOverride_mBF153FFAF78FFFF644E207F4968F54B2DF3173B3_inline (Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD* __this, Type_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cinfo_set_subsystemTypeOverride_mBF153FFAF78FFFF644E207F4968F54B2DF3173B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Cinfo_t6A283DE918CC68867B33F673029F5BF7885EDCFD_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Cinfo_set_subsystemTypeOverride_mBF153FFAF78FFFF644E207F4968F54B2DF3173B3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5130));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5131));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 5132));
+		Type_t* L_0 = ___0_value;
+		__this->___U3CsubsystemTypeOverrideU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsubsystemTypeOverrideU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD XRFaceMesh_get_vertices_m8B133063FC373FD34B8ECBEE696B3462DC65277E_inline (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRFaceMesh_get_vertices_m8B133063FC373FD34B8ECBEE696B3462DC65277E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRFaceMesh_get_vertices_m8B133063FC373FD34B8ECBEE696B3462DC65277E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4694));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4695));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4696));
+		NativeArray_1_t97E2BFD61E13EEF2CDE34A313415FAD03AB993FD L_0 = __this->___m_Vertices;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 XRFaceMesh_get_uvs_m71BF16345717D8B5D8F41C571A8D3152337E0A28_inline (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRFaceMesh_get_uvs_m71BF16345717D8B5D8F41C571A8D3152337E0A28_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRFaceMesh_get_uvs_m71BF16345717D8B5D8F41C571A8D3152337E0A28_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4703));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4704));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4705));
+		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 L_0 = __this->___m_UVs;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C XRFaceMesh_get_indices_m2658965B1B99DF1CF00154D791B580AE71CB136D_inline (XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRFaceMesh_get_indices_m2658965B1B99DF1CF00154D791B580AE71CB136D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRFaceMesh_t6B92499E6ECFF17A9BDCC6E531A79395795E2CD4_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRFaceMesh_get_indices_m2658965B1B99DF1CF00154D791B580AE71CB136D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4700));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4701));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARSubsystems + 4702));
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_0 = __this->___m_Indices;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11747));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11748));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11749));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11750));
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11751));
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11752));
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11753));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12745));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12746));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12747));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12748));
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12749));
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12750));
+		return;
+	}
+}

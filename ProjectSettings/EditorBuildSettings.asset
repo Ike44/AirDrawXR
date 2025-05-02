@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/MainScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/StreamingAssets/Hand Landmark Detection.unity
+    guid: 5e35be844842940e6a6d21da2555987b
+  - enabled: 0
+    path: Assets/MediaPipeUnity/Samples/Scenes/Hand Landmark Detection/Hand Landmark
+      Detection.unity
+    guid: 98d49dcfe667ea822a91d6b74f7cb2e9
+  - enabled: 1
+    path: Assets/Scenes/Demo1.unity
+    guid: 468526506469d4897bb5898efd3cc99c
+  - enabled: 0
+    path: Assets/Scenes/Demo2.unity
+    guid: eb33749138986401b870eda217f18a2e
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 3a7fb2bacc3c2438782ed19ad5c3f05d, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 30a4a527029dc4a108d617614a0ef1fe, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 91d15313c97ab41eb9f49b0b0459adc8, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3382cee9a23344f80b51baa53ed361ac, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b7cfa5cf9817944e1a811ff8e4a6a1df, type: 2}
+  m_UseUCBPForAssetBundles: 0

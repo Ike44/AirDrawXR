@@ -1,0 +1,4626 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct VirtualFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct EqualityComparer_1_t4ADF100C7B05C1EF03D0DB5376E49F54A8CC7694;
+struct EqualityComparer_1_t422C6B4A1A6D1C77F68967B31787AAA8DEA34203;
+struct EqualityComparer_1_t599A8D361A5402611BADC62EE2B5F655947EA39B;
+struct EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB;
+struct EqualityComparer_1_t346CEF653847623862FC6F88D66F7933B0039499;
+struct EqualityComparer_1_t7DB7FC11B7957026D1FB280BF9E0D8D8DBEE039A;
+struct ExtensionSet_1_tFD8D19310E2A0A4D6A7225E8C67A918D4AC1300A;
+struct Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771;
+struct Extension_2_t6F82AE53AF68AB07570DF5497199C9BEAA2E3CCF;
+struct Extension_2_tA43FDE066D6EF367C39002E9EF41DED322B3DF55;
+struct FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08;
+struct FieldCodec_1_t5E5853045CAC4F051697FDB8A12CC79D264D40D7;
+struct FieldCodec_1_tB7730C8D2D4ADF6392F4D474DE844629557D8ABA;
+struct Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB;
+struct Func_1_t726CD36CB50B2F99D102B003DBF9F7D5ECFE2918;
+struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4;
+struct Func_2_t5444F05616997A0C1AC0929515700CC76F93AE9E;
+struct Func_2_t64044CF5E0B6B699F3DA0D2B8DE3028365AA0FCB;
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
+struct IBufferWriter_1_t09B22D28ED83DD9237FC6D4E8014388593A8C897;
+struct IDictionary_2_tDE18981433E3420ACE1F95A42EC7A93F5AA317EE;
+struct IDictionary_2_tDB170C5929E4ACA380EEF5C8E082139CE49EC21B;
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
+struct IList_1_t2113D31E64AB4BC3FE73AB5985B7D30B220225D2;
+struct IList_1_tBECF6C25D47C20B0CA9B3100FD02FED4BA91145E;
+struct IList_1_t1C3796CCB02A6FB46469A8C82C9FBB10883C38B1;
+struct IList_1_tCEDC36A5A241399DB682BDCFCB0F8D94F53F89FD;
+struct IList_1_t72D63DEDFD3D09D9D034239EC2954718F7FCDB68;
+struct IList_1_t9B74854C0814D339537A7FFF6105D1D25A39C180;
+struct InputMerger_tBF019295B5BDAD654CA531AF93477026E39C34CD;
+struct Lazy_1_t9EE2A1123EC79B036ABD6DA8C3433CC66609B4A6;
+struct List_1_tD41E7942E0320D6008EC520A0E808D346BE10F47;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7;
+struct MessageParser_1_tA6FCF0F6C6FC2596C0B3728140A38595FD4A9C82;
+struct MessageParser_1_tA302DA02426C98232DE5E098B9D9A26ACC9DED0E;
+struct MessageParser_1_t0A1266AE80AE0CA415A0D84BE38381CC3E6904AE;
+struct MessageParser_1_tE80B9A8972366E18F31910138469726593F6FD1F;
+struct Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A;
+struct RepeatedField_1_t9D56278C8E96FE81D8E75B66681CE2EAC61C01C9;
+struct RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58;
+struct ValueReader_1_tBA513D091455A74CB36EA3C45953DCEC88B5E1B2;
+struct ValueWriter_1_tFDC5386476CDAF0D48B898C1C6E84D4B22605F63;
+struct ValuesMerger_t3A785A5F6C343C3EBD184A065A75416BB8AB74A6;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66;
+struct FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F;
+struct GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct Acceleration_t5CFC33DD7C77A62AA1F62BC38BC61C4A306AD524;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+struct AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03;
+struct AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19;
+struct BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69;
+struct BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct ByteString_t8A201B9CD5DEB1EDE24A5A988934C6A340761592;
+struct CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078;
+struct ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E;
+struct CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425;
+struct CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DescriptorPool_t77D5CAC332906FCF2B16A0C7AE7A2AA852907E94;
+struct DescriptorProto_t5EFB459380AC4A658C2DB3D77BDF787996B9BC9D;
+struct Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A;
+struct ExtensionCollection_tB99C14F49DA3F67113593C9FD990613B6072E7A0;
+struct ExtensionRegistry_t3A02F9CABE27F85D70F5444B20C9640194BCBDCC;
+struct ExternalFile_t56A9D636AE47FFF7E020FB4D7BB2D62AF6DB95BE;
+struct FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE;
+struct FileDescriptorProto_t2DA47DD53318C0FC40C4B6CA4EEA84ED56CAABC4;
+struct GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+struct IMessage_t9ECCC3E84D1F213AF8837852FA69082DD564B940;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906;
+struct MessageParser_tC9E617711ACDE0C5DABF25C755F4B86204C3775D;
+struct MethodInfo_t;
+struct PacketMap_tFB07B43F40E7B3221BA65139695E756B3B195BEF;
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE;
+struct String_t;
+struct Type_t;
+struct UnknownField_tC38F0EBBE48029F7B0BF156B6CCB6585176E91DD;
+struct UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct U3CU3Ec__DisplayClass19_0_t11B9D51A216EC00C728B4A174EEC179FAE4F02A3;
+struct U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565;
+struct ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F;
+struct FieldCollection_t4CD4D558BB728864FD029B696F2EC177B25E7AF3;
+
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsMediapipe_Runtime[];
+IL2CPP_EXTERN_C RuntimeClass* AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BaseOptionsReflection_tB81781DB528237F0D7D79F9485C0AEE7F5FC3612_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CalculatorOptionsReflection_t8F0355475D4B0B0F61B433C275C7BA154E147E35_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CalculatorReflection_tD19FF559F43712DC2DE422FAF0F1130A3733E6E5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ClassifierOptionsReflection_t74025C3CC2494958CA23F7A9ED6CB573D54C602C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IList_1_tCEDC36A5A241399DB682BDCFCB0F8D94F53F89FD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* JsonFormatter_tC07776B90541EC7D8AEBA95C09920E667FAE5B3B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ParsingPrimitivesMessages_t7E329824B6CDE2975470D909F2DB2073F4ACF0F2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral26E20045EA9F6116BD43AFCFCF0ED6D6F6A24559;
+IL2CPP_EXTERN_C String_t* _stringLiteral27549DD0CBA9FA3DEEDA03CD0BA158009FEC4324;
+IL2CPP_EXTERN_C String_t* _stringLiteral29278CE4A68E7648BDF2DF19911E790E9875ECCB;
+IL2CPP_EXTERN_C String_t* _stringLiteral3972F99975A955B92550A1EDCA7DDD148165D8C4;
+IL2CPP_EXTERN_C String_t* _stringLiteral3E4F753B6503EE857DF96EB65B8BAA02FE70791A;
+IL2CPP_EXTERN_C String_t* _stringLiteral4ED034CF4E9BDA5C3039D892624F4BE19ED87526;
+IL2CPP_EXTERN_C String_t* _stringLiteral532B44DA709F3F8C707CA0D31CD8453A49492319;
+IL2CPP_EXTERN_C String_t* _stringLiteral5867FEEFB3DDF76FDEDB0E6BF0495634C018B30B;
+IL2CPP_EXTERN_C String_t* _stringLiteral5E56A52FE3EC6D65731F0281D0A24072B5E43711;
+IL2CPP_EXTERN_C String_t* _stringLiteral84CEE00D3876A4CD16D71D9FEE82720FACC285D1;
+IL2CPP_EXTERN_C String_t* _stringLiteral927FA99EF3EE4C1062B6B328F185FE7876DF48CB;
+IL2CPP_EXTERN_C String_t* _stringLiteral94F18F22D8928E4657BE1CD9C6C616EF33BBDEF2;
+IL2CPP_EXTERN_C String_t* _stringLiteral99D510433C08DE00463AE4AA2330FF8FCDA01385;
+IL2CPP_EXTERN_C String_t* _stringLiteral9A6B764A318756BDE839D06F47533AC1BBAEA309;
+IL2CPP_EXTERN_C String_t* _stringLiteralA0A07EC46E74AD70EB4D6D16FB7448F35D8DB010;
+IL2CPP_EXTERN_C String_t* _stringLiteralB14233800888093384A54A0D92F8877373AC6C3F;
+IL2CPP_EXTERN_C String_t* _stringLiteralB1B1CFB5DAB78750456809575D760F0C9129E810;
+IL2CPP_EXTERN_C String_t* _stringLiteralB567341740189586D7079721D1C01C2E143E8750;
+IL2CPP_EXTERN_C String_t* _stringLiteralDE50982A49D278925E51D9369AFB4822C611620E;
+IL2CPP_EXTERN_C String_t* _stringLiteralE2E1CB24DC378147EBB096E21B31C3E7FB5ABF55;
+IL2CPP_EXTERN_C String_t* _stringLiteralE99EADCD39E7BC7D340428230F4C3D18123C2E82;
+IL2CPP_EXTERN_C String_t* _stringLiteralEA0AA20E38658D224543DCED4181BBA15748482B;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptionsReflection__cctor_mC1B3DB14E20D92175A27998C6579E3D65C33A510_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptionsReflection_get_Descriptor_mD6F9183FB98B97A5FD87B755D50DF69FBC9DDC62_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_CalculateSize_m244A9367F59CAA3B6C9FE0FCB6C0A117F18D2DD2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_ClearDefaultInputAudioSampleRate_m891F0C05DCC25E714A00CC2904EFD0149CAF88AA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_Clone_m1C83B6D07F5626C18D02AFE9215E8DB02C37FFA4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_Equals_m6C9440001CE4EE8DF049DB39B6F5CF80FB043226_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_Equals_m8A434076653533D18D3E37A7D980885073FD46AA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_GetHashCode_m26D986413A086CB8BE7811C7379291689E77F1FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_MergeFrom_m807952E71ADD5F65797AB414366B68F66DCDF0EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_MergeFrom_mBD083E663A87286F511AF7D9A4104426DD9C994C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_ToString_m5D206436B286936B031B6DFF6D771E45B89D133E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_WriteTo_m7241A8D2C29B464726FD9B79B983D78B839EC4E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions__cctor_mCD93CB1FE11F9C9B2C7C6F6237335EC03EABA740_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions__ctor_m58CDD3E28E89C1A01C7141726429F08CEF7BFD17_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_get_Descriptor_m57AEF234DC5622AE05C490A5CD1D5C2CE6799E5E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_get_Parser_m8B485CDEA08E1B47655C470B31641893E6692F56_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalMergeFrom_mCB8FC0AC1BEF3565CBC2241A681567D5E045BAAD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalWriteTo_m4E968765E062CE0ABA98685D4EE400598A7F1E18_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IMessage_get_Descriptor_m86AA2FBF49E2EABDE96E95F1BFE26695DE27F086_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierGraphOptions_set_DefaultInputAudioSampleRate_m5054F12647E2B1B1C58354D7AA2F06F4A57C85E0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_Mediapipe_Tasks_Core_ITaskOptions_ToCalculatorOptions_m0F8BCE31883D3A32ADA9C32EF7FF0382305FF420_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_ToProto_m7DDCBF6E0A5F7866F158F7F41CBEDBB0197FDD90_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions__ctor_mC43E045A9F323178FB20C85A9E12F1A51CB160A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_resultCallback_mD830875FD7547058D5ABA1AFB31F53A25BF23ED7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CalculatorOptions_SetExtension_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m27BC119F445700CF11B047048C9EB0F49D96F96A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Extension_2__ctor_m3696AA60A3E9BAD02C47F9374284256EE229E1CC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Extensions__cctor_mC74FC76C40A865CFD6F704A08DDD5CD857999A5A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FieldCodec_ForMessage_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m20035402BBAD43B13DDA67DB591218FF58B9D663_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FileDescriptor_get_MessageTypes_m0FB1C458BB323A507214648AC7944A9FBE4D3E78_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MessageParser_1__ctor_m37DD45A3AA1EC1BC45FA5F51479935C588968B27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PacketMap_At_TisClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_m974868461160611C604B5DD81B0A4413F6368B3C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Packet_1_IsEmpty_mAE16196DD6547627CB189039E5F329E6AD0FA9C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Packet_1_TimestampMicroseconds_m8B1A6EB7112AF3E83AAB97D18740C5C1EBDEF191_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ParseContext_ReadDouble_m472E820A5560DEDA7DB0C3E9FBBAAB1D9889A521_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ParseContext_ReadMessage_mEEAE6CBA9B5E75F1BB69069FF90376F64E16FA0F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ParseContext_ReadTag_m01B263948EC529915711371EE50F8EAEB484E265_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ProtobufEqualityComparers_get_BitwiseDoubleEqualityComparer_mE0E0358747BA998C14B09B00EF0EEC35FAD67189_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RepeatedField_1_AddRange_m7FB09C9454BA48E32A15881FF58843D28B361FD3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__43_0_m8A82A85A5133F4E1628ABDEDFC469C73663CB8A3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0_U3CBuildPacketsCallbackU3Eb__0_m4F5B7BCE7980358442478B6A15D6923FD1FBEECD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass19_0__ctor_mFC07FE5105B4337EB2C78CD33D452E23C23B5EF6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__cctor_m7708132701DA6A8C8594CAD65F3684AD94FB30E5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__ctor_m881AE801BE867FEAC35535B96B3AF90F945E6F51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec__DisplayClass19_0_t11B9D51A216EC00C728B4A174EEC179FAE4F02A3_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66;
+struct FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F;
+struct GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB  : public RuntimeObject
+{
+};
+struct FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08  : public RuntimeObject
+{
+	bool ___U3CPackedRepeatedFieldU3Ek__BackingField;
+	ValueWriter_1_tFDC5386476CDAF0D48B898C1C6E84D4B22605F63* ___U3CValueWriterU3Ek__BackingField;
+	Func_2_t5444F05616997A0C1AC0929515700CC76F93AE9E* ___U3CValueSizeCalculatorU3Ek__BackingField;
+	ValueReader_1_tBA513D091455A74CB36EA3C45953DCEC88B5E1B2* ___U3CValueReaderU3Ek__BackingField;
+	InputMerger_tBF019295B5BDAD654CA531AF93477026E39C34CD* ___U3CValueMergerU3Ek__BackingField;
+	ValuesMerger_t3A785A5F6C343C3EBD184A065A75416BB8AB74A6* ___U3CFieldMergerU3Ek__BackingField;
+	int32_t ___U3CFixedSizeU3Ek__BackingField;
+	uint32_t ___U3CTagU3Ek__BackingField;
+	uint32_t ___U3CEndTagU3Ek__BackingField;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___U3CDefaultValueU3Ek__BackingField;
+	int32_t ___tagSize;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___array;
+	int32_t ___count;
+};
+struct U3CPrivateImplementationDetailsU3E_t83AD72739FF7DB5BE9F3BE973891FFC1AB48D793  : public RuntimeObject
+{
+};
+struct AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03  : public RuntimeObject
+{
+	UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ____unknownFields;
+	int32_t ____hasBits0;
+	BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* ___baseOptions_;
+	ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* ___classifierOptions_;
+	double ___defaultInputAudioSampleRate_;
+};
+struct AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9  : public RuntimeObject
+{
+};
+struct CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078  : public RuntimeObject
+{
+	UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ____unknownFields;
+	ExtensionSet_1_tFD8D19310E2A0A4D6A7225E8C67A918D4AC1300A* ____extensions;
+	int32_t ____hasBits0;
+	bool ___mergeFields_;
+};
+struct ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E  : public RuntimeObject
+{
+	UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ____unknownFields;
+	int32_t ____hasBits0;
+	String_t* ___displayNamesLocale_;
+	int32_t ___maxResults_;
+	float ___scoreThreshold_;
+	RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58* ___categoryAllowlist_;
+	RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58* ___categoryDenylist_;
+};
+struct DescriptorBase_t5C5FA7C866B517618C4032DDBEF36522D92A18FA  : public RuntimeObject
+{
+	int32_t ___U3CIndexU3Ek__BackingField;
+	String_t* ___U3CFullNameU3Ek__BackingField;
+	FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* ___U3CFileU3Ek__BackingField;
+};
+struct DisposableObject_t578CD5314854487903314F3BC56943960A782897  : public RuntimeObject
+{
+	int32_t ____disposeSignaled;
+	bool ____isLocked;
+	bool ___U3CisDisposedU3Ek__BackingField;
+	bool ___U3CisOwnerU3Ek__BackingField;
+};
+struct Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A  : public RuntimeObject
+{
+	int32_t ___U3CFieldNumberU3Ek__BackingField;
+};
+struct GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E  : public RuntimeObject
+{
+	Type_t* ___U3CClrTypeU3Ek__BackingField;
+	MessageParser_tC9E617711ACDE0C5DABF25C755F4B86204C3775D* ___U3CParserU3Ek__BackingField;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CPropertyNamesU3Ek__BackingField;
+	ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66* ___U3CExtensionsU3Ek__BackingField;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3COneofNamesU3Ek__BackingField;
+	GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89* ___U3CNestedTypesU3Ek__BackingField;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___U3CNestedEnumsU3Ek__BackingField;
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct MessageParser_tC9E617711ACDE0C5DABF25C755F4B86204C3775D  : public RuntimeObject
+{
+	Func_1_t726CD36CB50B2F99D102B003DBF9F7D5ECFE2918* ___factory;
+	bool ___U3CDiscardUnknownFieldsU3Ek__BackingField;
+	ExtensionRegistry_t3A02F9CABE27F85D70F5444B20C9640194BCBDCC* ___U3CExtensionsU3Ek__BackingField;
+};
+struct ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26  : public RuntimeObject
+{
+	RuntimeObject* ___fields;
+	int32_t ___lastFieldNumber;
+	UnknownField_tC38F0EBBE48029F7B0BF156B6CCB6585176E91DD* ___lastField;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565  : public RuntimeObject
+{
+};
+struct Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779  : public RuntimeObject
+{
+};
+struct Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771  : public Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A
+{
+	FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08* ___codec;
+};
+struct MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7  : public MessageParser_tC9E617711ACDE0C5DABF25C755F4B86204C3775D
+{
+	Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB* ___factory;
+};
+struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
+{
+	bool ___hasValue;
+	int32_t ___value;
+};
+struct Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 
+{
+	bool ___hasValue;
+	int64_t ___value;
+};
+struct Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 
+{
+	bool ___hasValue;
+	float ___value;
+};
+struct ReadOnlyMemory_1_t63F301BF893B0AB689953D86A641168CA66D2399 
+{
+	RuntimeObject* ____object;
+	int32_t ____index;
+	int32_t ____length;
+};
+#ifndef ReadOnlyMemory_1_t766DD3EE24B08138FB23CBC5B315D83C6E1272F5_marshaled_pinvoke_define
+#define ReadOnlyMemory_1_t766DD3EE24B08138FB23CBC5B315D83C6E1272F5_marshaled_pinvoke_define
+struct ReadOnlyMemory_1_t766DD3EE24B08138FB23CBC5B315D83C6E1272F5_marshaled_pinvoke
+{
+	Il2CppIUnknown* ____object;
+	int32_t ____index;
+	int32_t ____length;
+};
+#endif
+#ifndef ReadOnlyMemory_1_t766DD3EE24B08138FB23CBC5B315D83C6E1272F5_marshaled_com_define
+#define ReadOnlyMemory_1_t766DD3EE24B08138FB23CBC5B315D83C6E1272F5_marshaled_com_define
+struct ReadOnlyMemory_1_t766DD3EE24B08138FB23CBC5B315D83C6E1272F5_marshaled_com
+{
+	Il2CppIUnknown* ____object;
+	int32_t ____index;
+	int32_t ____length;
+};
+#endif
+struct ReadOnlySequence_1_t85097489C00952FC58DF9F3ACE926EAE9A51898A 
+{
+	RuntimeObject* ____startObject;
+	RuntimeObject* ____endObject;
+	int32_t ____startInteger;
+	int32_t ____endInteger;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906  : public DescriptorBase_t5C5FA7C866B517618C4032DDBEF36522D92A18FA
+{
+	RuntimeObject* ___fieldsInDeclarationOrder;
+	RuntimeObject* ___fieldsInNumberOrder;
+	RuntimeObject* ___jsonFieldMap;
+	Func_2_t64044CF5E0B6B699F3DA0D2B8DE3028365AA0FCB* ___extensionSetIsInitialized;
+	DescriptorProto_t5EFB459380AC4A658C2DB3D77BDF787996B9BC9D* ___U3CProtoU3Ek__BackingField;
+	Type_t* ___U3CClrTypeU3Ek__BackingField;
+	MessageParser_tC9E617711ACDE0C5DABF25C755F4B86204C3775D* ___U3CParserU3Ek__BackingField;
+	MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* ___U3CContainingTypeU3Ek__BackingField;
+	FieldCollection_t4CD4D558BB728864FD029B696F2EC177B25E7AF3* ___U3CFieldsU3Ek__BackingField;
+	ExtensionCollection_tB99C14F49DA3F67113593C9FD990613B6072E7A0* ___U3CExtensionsU3Ek__BackingField;
+	RuntimeObject* ___U3CNestedTypesU3Ek__BackingField;
+	RuntimeObject* ___U3CEnumTypesU3Ek__BackingField;
+	RuntimeObject* ___U3COneofsU3Ek__BackingField;
+	int32_t ___U3CRealOneofCountU3Ek__BackingField;
+};
+struct SequencePosition_tF4FA2B48A1A5B3A50EFDA1174069C749D986EA14 
+{
+	RuntimeObject* ____object;
+	int32_t ____integer;
+};
+struct SequencePosition_tF4FA2B48A1A5B3A50EFDA1174069C749D986EA14_marshaled_pinvoke
+{
+	Il2CppIUnknown* ____object;
+	int32_t ____integer;
+};
+struct SequencePosition_tF4FA2B48A1A5B3A50EFDA1174069C749D986EA14_marshaled_com
+{
+	Il2CppIUnknown* ____object;
+	int32_t ____integer;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WriteBufferHelper_t88D4023E94B7D52F4C518E266A90BE267DD10557 
+{
+	RuntimeObject* ___bufferWriter;
+	CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163* ___codedOutputStream;
+};
+struct WriteBufferHelper_t88D4023E94B7D52F4C518E266A90BE267DD10557_marshaled_pinvoke
+{
+	RuntimeObject* ___bufferWriter;
+	CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163* ___codedOutputStream;
+};
+struct WriteBufferHelper_t88D4023E94B7D52F4C518E266A90BE267DD10557_marshaled_com
+{
+	RuntimeObject* ___bufferWriter;
+	CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163* ___codedOutputStream;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D40043_tF55F785F24F47C505473312B446A8F5B6FD0EAA8 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D40043_tF55F785F24F47C505473312B446A8F5B6FD0EAA8__padding[40043];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D45340_tAF05D86611177D393F2036F6F9B1275F7780A199 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D45340_tAF05D86611177D393F2036F6F9B1275F7780A199__padding[45340];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D64_tB80448B9400D76E5CD8B95FB8075386796D552BB 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D64_tB80448B9400D76E5CD8B95FB8075386796D552BB__padding[64];
+	};
+};
+#pragma pack(pop, tp)
+struct ByReference_1_t9C85BCCAAF8C525B6C06B07E922D8D217BE8D6FC 
+{
+	intptr_t ____value;
+};
+struct Enumerator_t81A4C70A8A186500F66FD3F505D8B2E7C805D770 
+{
+	ReadOnlySequence_1_t85097489C00952FC58DF9F3ACE926EAE9A51898A ____sequence;
+	SequencePosition_tF4FA2B48A1A5B3A50EFDA1174069C749D986EA14 ____next;
+	ReadOnlyMemory_1_t63F301BF893B0AB689953D86A641168CA66D2399 ____currentMemory;
+};
+struct ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 
+{
+	List_1_tD41E7942E0320D6008EC520A0E808D346BE10F47* ___classifications;
+	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ___timestampMs;
+};
+struct ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_marshaled_pinvoke
+{
+	List_1_tD41E7942E0320D6008EC520A0E808D346BE10F47* ___classifications;
+	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ___timestampMs;
+};
+struct ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_marshaled_com
+{
+	List_1_tD41E7942E0320D6008EC520A0E808D346BE10F47* ___classifications;
+	Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17 ___timestampMs;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct MpResourceHandle_t2E6EDEBED1658435C80B0969EF071F278E2B8DCA  : public DisposableObject_t578CD5314854487903314F3BC56943960A782897
+{
+	intptr_t ____ptr;
+};
+struct RunningMode_t6293B156056BBF67CABD4EE39EB7D3821D59A136 
+{
+	int32_t ___value__;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct Syntax_t720B58EB974DC91D9B40B0716439A15612635E28 
+{
+	int32_t ___value__;
+};
+struct WriterInternalState_tAACF88B10900BCAB675899ED5D745BC2882A1780 
+{
+	int32_t ___limit;
+	int32_t ___position;
+	WriteBufferHelper_t88D4023E94B7D52F4C518E266A90BE267DD10557 ___writeBufferHelper;
+};
+struct WriterInternalState_tAACF88B10900BCAB675899ED5D745BC2882A1780_marshaled_pinvoke
+{
+	int32_t ___limit;
+	int32_t ___position;
+	WriteBufferHelper_t88D4023E94B7D52F4C518E266A90BE267DD10557_marshaled_pinvoke ___writeBufferHelper;
+};
+struct WriterInternalState_tAACF88B10900BCAB675899ED5D745BC2882A1780_marshaled_com
+{
+	int32_t ___limit;
+	int32_t ___position;
+	WriteBufferHelper_t88D4023E94B7D52F4C518E266A90BE267DD10557_marshaled_com ___writeBufferHelper;
+};
+struct Delegate_t89898F3F3614B8ACA97540A5FECFE212D4CD242C 
+{
+	int32_t ___value__;
+};
+struct Mode_tCD62D6D2AF9204DC0FF8C535BB811E560FFA8B4A 
+{
+	int32_t ___value__;
+};
+struct Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A  : public MpResourceHandle_t2E6EDEBED1658435C80B0969EF071F278E2B8DCA
+{
+};
+struct ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D 
+{
+	ByReference_1_t9C85BCCAAF8C525B6C06B07E922D8D217BE8D6FC ____pointer;
+	int32_t ____length;
+};
+struct Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 
+{
+	ByReference_1_t9C85BCCAAF8C525B6C06B07E922D8D217BE8D6FC ____pointer;
+	int32_t ____length;
+};
+struct AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19  : public RuntimeObject
+{
+	BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* ___U3CbaseOptionsU3Ek__BackingField;
+	int32_t ___U3CrunningModeU3Ek__BackingField;
+	String_t* ___U3CdisplayNamesLocaleU3Ek__BackingField;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CmaxResultsU3Ek__BackingField;
+	Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 ___U3CscoreThresholdU3Ek__BackingField;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___U3CcategoryAllowListU3Ek__BackingField;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___U3CcategoryDenyListU3Ek__BackingField;
+	ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* ___U3CresultCallbackU3Ek__BackingField;
+};
+struct BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69  : public RuntimeObject
+{
+	int32_t ___U3CdelegateCaseU3Ek__BackingField;
+	String_t* ___U3CmodelAssetPathU3Ek__BackingField;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CmodelAssetBufferU3Ek__BackingField;
+};
+struct BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F  : public RuntimeObject
+{
+	UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ____unknownFields;
+	int32_t ____hasBits0;
+	ExternalFile_t56A9D636AE47FFF7E020FB4D7BB2D62AF6DB95BE* ___modelAsset_;
+	bool ___useStreamMode_;
+	Acceleration_t5CFC33DD7C77A62AA1F62BC38BC61C4A306AD524* ___acceleration_;
+	int32_t ___gpuOrigin_;
+};
+struct CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163  : public RuntimeObject
+{
+	bool ___leaveOpen;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer;
+	WriterInternalState_tAACF88B10900BCAB675899ED5D745BC2882A1780 ___state;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___output;
+};
+struct FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE  : public RuntimeObject
+{
+	Lazy_1_t9EE2A1123EC79B036ABD6DA8C3433CC66609B4A6* ___declarations;
+	FileDescriptorProto_t2DA47DD53318C0FC40C4B6CA4EEA84ED56CAABC4* ___U3CProtoU3Ek__BackingField;
+	int32_t ___U3CSyntaxU3Ek__BackingField;
+	RuntimeObject* ___U3CMessageTypesU3Ek__BackingField;
+	RuntimeObject* ___U3CEnumTypesU3Ek__BackingField;
+	RuntimeObject* ___U3CServicesU3Ek__BackingField;
+	ExtensionCollection_tB99C14F49DA3F67113593C9FD990613B6072E7A0* ___U3CExtensionsU3Ek__BackingField;
+	RuntimeObject* ___U3CDependenciesU3Ek__BackingField;
+	RuntimeObject* ___U3CPublicDependenciesU3Ek__BackingField;
+	ByteString_t8A201B9CD5DEB1EDE24A5A988934C6A340761592* ___U3CSerializedDataU3Ek__BackingField;
+	DescriptorPool_t77D5CAC332906FCF2B16A0C7AE7A2AA852907E94* ___U3CDescriptorPoolU3Ek__BackingField;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct PacketMap_tFB07B43F40E7B3221BA65139695E756B3B195BEF  : public MpResourceHandle_t2E6EDEBED1658435C80B0969EF071F278E2B8DCA
+{
+};
+struct SegmentedBufferHelper_tB533BBE3FC95EE78A9A8120BCFCBFF46AE02126B 
+{
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___totalLength;
+	Enumerator_t81A4C70A8A186500F66FD3F505D8B2E7C805D770 ___readOnlySequenceEnumerator;
+	CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425* ___codedInputStream;
+};
+struct SegmentedBufferHelper_tB533BBE3FC95EE78A9A8120BCFCBFF46AE02126B_marshaled_pinvoke
+{
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___totalLength;
+	Enumerator_t81A4C70A8A186500F66FD3F505D8B2E7C805D770 ___readOnlySequenceEnumerator;
+	CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425* ___codedInputStream;
+};
+struct SegmentedBufferHelper_tB533BBE3FC95EE78A9A8120BCFCBFF46AE02126B_marshaled_com
+{
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___totalLength;
+	Enumerator_t81A4C70A8A186500F66FD3F505D8B2E7C805D770 ___readOnlySequenceEnumerator;
+	CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425* ___codedInputStream;
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct U3CU3Ec__DisplayClass19_0_t11B9D51A216EC00C728B4A174EEC179FAE4F02A3  : public RuntimeObject
+{
+	ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___result;
+	ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* ___resultCallback;
+};
+struct Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB  : public MulticastDelegate_t
+{
+};
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
+};
+struct ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C 
+{
+	int32_t ___bufferPos;
+	int32_t ___bufferSize;
+	int32_t ___bufferSizeAfterLimit;
+	int32_t ___currentLimit;
+	int32_t ___totalBytesRetired;
+	int32_t ___recursionDepth;
+	SegmentedBufferHelper_tB533BBE3FC95EE78A9A8120BCFCBFF46AE02126B ___segmentedBufferHelper;
+	uint32_t ___lastTag;
+	uint32_t ___nextTag;
+	bool ___hasNextTag;
+	int32_t ___sizeLimit;
+	int32_t ___recursionLimit;
+	bool ___U3CDiscardUnknownFieldsU3Ek__BackingField;
+	ExtensionRegistry_t3A02F9CABE27F85D70F5444B20C9640194BCBDCC* ___U3CExtensionRegistryU3Ek__BackingField;
+};
+struct ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C_marshaled_pinvoke
+{
+	int32_t ___bufferPos;
+	int32_t ___bufferSize;
+	int32_t ___bufferSizeAfterLimit;
+	int32_t ___currentLimit;
+	int32_t ___totalBytesRetired;
+	int32_t ___recursionDepth;
+	SegmentedBufferHelper_tB533BBE3FC95EE78A9A8120BCFCBFF46AE02126B_marshaled_pinvoke ___segmentedBufferHelper;
+	uint32_t ___lastTag;
+	uint32_t ___nextTag;
+	int32_t ___hasNextTag;
+	int32_t ___sizeLimit;
+	int32_t ___recursionLimit;
+	int32_t ___U3CDiscardUnknownFieldsU3Ek__BackingField;
+	ExtensionRegistry_t3A02F9CABE27F85D70F5444B20C9640194BCBDCC* ___U3CExtensionRegistryU3Ek__BackingField;
+};
+struct ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C_marshaled_com
+{
+	int32_t ___bufferPos;
+	int32_t ___bufferSize;
+	int32_t ___bufferSizeAfterLimit;
+	int32_t ___currentLimit;
+	int32_t ___totalBytesRetired;
+	int32_t ___recursionDepth;
+	SegmentedBufferHelper_tB533BBE3FC95EE78A9A8120BCFCBFF46AE02126B_marshaled_com ___segmentedBufferHelper;
+	uint32_t ___lastTag;
+	uint32_t ___nextTag;
+	int32_t ___hasNextTag;
+	int32_t ___sizeLimit;
+	int32_t ___recursionLimit;
+	int32_t ___U3CDiscardUnknownFieldsU3Ek__BackingField;
+	ExtensionRegistry_t3A02F9CABE27F85D70F5444B20C9640194BCBDCC* ___U3CExtensionRegistryU3Ek__BackingField;
+};
+struct WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D 
+{
+	Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___buffer;
+	WriterInternalState_tAACF88B10900BCAB675899ED5D745BC2882A1780 ___state;
+};
+struct WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D_marshaled_pinvoke
+{
+	Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___buffer;
+	WriterInternalState_tAACF88B10900BCAB675899ED5D745BC2882A1780_marshaled_pinvoke ___state;
+};
+struct WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D_marshaled_com
+{
+	Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___buffer;
+	WriterInternalState_tAACF88B10900BCAB675899ED5D745BC2882A1780_marshaled_com ___state;
+};
+struct ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F  : public MulticastDelegate_t
+{
+};
+struct CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425  : public RuntimeObject
+{
+	bool ___leaveOpen;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___input;
+	ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C ___state;
+};
+struct ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF 
+{
+	ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___buffer;
+	ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C ___state;
+};
+struct ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF_marshaled_pinvoke
+{
+	ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___buffer;
+	ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C_marshaled_pinvoke ___state;
+};
+struct ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF_marshaled_com
+{
+	ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___buffer;
+	ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C_marshaled_com ___state;
+};
+struct EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB_StaticFields
+{
+	EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB* ___defaultComparer;
+};
+struct FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08_StaticFields
+{
+	EqualityComparer_1_t599A8D361A5402611BADC62EE2B5F655947EA39B* ___EqualityComparer;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___DefaultDefault;
+	bool ___TypeSupportsPacking;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58_StaticFields
+{
+	EqualityComparer_1_t7DB7FC11B7957026D1FB280BF9E0D8D8DBEE039A* ___EqualityComparer;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___EmptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t83AD72739FF7DB5BE9F3BE973891FFC1AB48D793_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D64_tB80448B9400D76E5CD8B95FB8075386796D552BB ___16322F9E59A01BCE155CD36A4785FC6BA26D0A7322A1944EA13AB4919017BEC7;
+	__StaticArrayInitTypeSizeU3D45340_tAF05D86611177D393F2036F6F9B1275F7780A199 ___A0C0DE4BBEFE0F844FBB096A0D6AEC4D52D208DE0940D93DCE8AD2F11EE5080D;
+	__StaticArrayInitTypeSizeU3D64_tB80448B9400D76E5CD8B95FB8075386796D552BB ___AB5F9848584ABBC9381D96D17CF88BDF2A8F2B9F9933C2A961FE911E8083B5FA;
+	__StaticArrayInitTypeSizeU3D40043_tF55F785F24F47C505473312B446A8F5B6FD0EAA8 ___EC4159C03E272B270434BAB5B412063C061DD10629CF1ECCD24F23DA55271540;
+};
+struct AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_StaticFields
+{
+	MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* ____parser;
+	double ___DefaultInputAudioSampleRateDefaultValue;
+};
+struct AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_StaticFields
+{
+	FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* ___descriptor;
+};
+struct CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078_StaticFields
+{
+	MessageParser_1_tA302DA02426C98232DE5E098B9D9A26ACC9DED0E* ____parser;
+	bool ___MergeFieldsDefaultValue;
+};
+struct ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_StaticFields
+{
+	MessageParser_1_t0A1266AE80AE0CA415A0D84BE38381CC3E6904AE* ____parser;
+	String_t* ___DisplayNamesLocaleDefaultValue;
+	int32_t ___MaxResultsDefaultValue;
+	float ___ScoreThresholdDefaultValue;
+	FieldCodec_1_tB7730C8D2D4ADF6392F4D474DE844629557D8ABA* ____repeated_categoryAllowlist_codec;
+	FieldCodec_1_tB7730C8D2D4ADF6392F4D474DE844629557D8ABA* ____repeated_categoryDenylist_codec;
+};
+struct GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___EmptyNames;
+	GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89* ___EmptyCodeInfo;
+	ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66* ___EmptyExtensions;
+};
+struct ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_StaticFields
+{
+	EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB* ___U3CBitwiseDoubleEqualityComparerU3Ek__BackingField;
+	EqualityComparer_1_t346CEF653847623862FC6F88D66F7933B0039499* ___U3CBitwiseSingleEqualityComparerU3Ek__BackingField;
+	EqualityComparer_1_t4ADF100C7B05C1EF03D0DB5376E49F54A8CC7694* ___U3CBitwiseNullableDoubleEqualityComparerU3Ek__BackingField;
+	EqualityComparer_1_t422C6B4A1A6D1C77F68967B31787AAA8DEA34203* ___U3CBitwiseNullableSingleEqualityComparerU3Ek__BackingField;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_StaticFields
+{
+	U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565* ___U3CU3E9;
+};
+struct Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_StaticFields
+{
+	Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771* ___Ext;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906_StaticFields
+{
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___WellKnownTypeNames;
+};
+struct BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_StaticFields
+{
+	MessageParser_1_tA6FCF0F6C6FC2596C0B3728140A38595FD4A9C82* ____parser;
+	bool ___UseStreamModeDefaultValue;
+	int32_t ___GpuOriginDefaultValue;
+};
+struct CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163_StaticFields
+{
+	int32_t ___DefaultBufferSize;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Delegate_t* m_Items[1];
+
+	inline Delegate_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Delegate_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F  : public RuntimeArray
+{
+	ALIGN_FIELD (8) FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* m_Items[1];
+
+	inline FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* m_Items[1];
+
+	inline GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A* m_Items[1];
+
+	inline Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Type_t* m_Items[1];
+
+	inline Type_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Type_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Type_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Type_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Type_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Type_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* PacketMap_At_TisClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_m974868461160611C604B5DD81B0A4413F6368B3C_gshared (PacketMap_tFB07B43F40E7B3221BA65139695E756B3B195BEF* __this, String_t* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Packet_1_IsEmpty_mAE16196DD6547627CB189039E5F329E6AD0FA9C0_gshared (Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Packet_1_TimestampMicroseconds_m8B1A6EB7112AF3E83AAB97D18740C5C1EBDEF191_gshared (Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_gshared_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_gshared_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RepeatedField_1_AddRange_m219B6AFE63340C367145E7710FD09CAC8CA82CEA_gshared (RepeatedField_1_t9D56278C8E96FE81D8E75B66681CE2EAC61C01C9* __this, RuntimeObject* ___0_values, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CalculatorOptions_SetExtension_TisRuntimeObject_m7D138FD593E458326DE48D189B3131932B47AB2E_gshared (CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* __this, Extension_2_t6F82AE53AF68AB07570DF5497199C9BEAA2E3CCF* ___0_extension, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageParser_1__ctor_m79DDE10FEBA79EB94DDBD4216164A97C85202DC8_gshared (MessageParser_1_tE80B9A8972366E18F31910138469726593F6FD1F* __this, Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___0_factory, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldCodec_1_t5E5853045CAC4F051697FDB8A12CC79D264D40D7* FieldCodec_ForMessage_TisRuntimeObject_mBD1C61B94DF96267D57938C8C9B1E2F251A42F8A_gshared (uint32_t ___0_tag, MessageParser_1_tE80B9A8972366E18F31910138469726593F6FD1F* ___1_parser, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Extension_2__ctor_m9605F726AE8B4A943BD9D15EF699B895D3BA9940_gshared (Extension_2_tA43FDE066D6EF367C39002E9EF41DED322B3DF55* __this, int32_t ___0_fieldNumber, FieldCodec_1_t5E5853045CAC4F051697FDB8A12CC79D264D40D7* ___1_codec, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+inline Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* PacketMap_At_TisClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_m974868461160611C604B5DD81B0A4413F6368B3C (PacketMap_tFB07B43F40E7B3221BA65139695E756B3B195BEF* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* (*) (PacketMap_tFB07B43F40E7B3221BA65139695E756B3B195BEF*, String_t*, const RuntimeMethod*))PacketMap_At_TisClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_m974868461160611C604B5DD81B0A4413F6368B3C_gshared)(__this, ___0_key, method);
+}
+inline bool Packet_1_IsEmpty_mAE16196DD6547627CB189039E5F329E6AD0FA9C0 (Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A*, const RuntimeMethod*))Packet_1_IsEmpty_mAE16196DD6547627CB189039E5F329E6AD0FA9C0_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PacketExtension_Get_m7A172BECCC9278D004AE7931A4823307863F7E86 (Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* ___0_packet, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5* ___1_value, const RuntimeMethod* method) ;
+inline int64_t Packet_1_TimestampMicroseconds_m8B1A6EB7112AF3E83AAB97D18740C5C1EBDEF191 (Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* __this, const RuntimeMethod* method)
+{
+	return ((  int64_t (*) (Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A*, const RuntimeMethod*))Packet_1_TimestampMicroseconds_m8B1A6EB7112AF3E83AAB97D18740C5C1EBDEF191_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_inline (ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___0_classificationResult, int64_t ___1_timestampMillisec, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* BaseOptions_ToProto_mA4BD49193BC86E22F66F5611CEC25EA3DD4F76AF (BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseOptions_set_UseStreamMode_m700BA3818DF305AEC5C0F2A3C2D288C52CE7A260 (BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClassifierOptions__ctor_m430CD704AF9C6CC371F21E5899CB4B2B6F759776 (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClassifierOptions_set_DisplayNamesLocale_m4163C5DB1C353ACB16E083470D53623AE6EEC9F8 (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+inline bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, const RuntimeMethod*))Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline)(__this, method);
+}
+inline int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28*, const RuntimeMethod*))Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClassifierOptions_set_MaxResults_m4AB86E7E4BDB5CC0C8D356499613768F95593AAE (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+inline bool Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75*, const RuntimeMethod*))Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_gshared_inline)(__this, method);
+}
+inline float Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75*, const RuntimeMethod*))Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClassifierOptions_set_ScoreThreshold_m571C63F91F9E756A0F61F8CFD2C93A75C53EF63D (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58* ClassifierOptions_get_CategoryAllowlist_m0BD85ED8942186FFBD30942A104FE8335ADA4FBB (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, const RuntimeMethod* method) ;
+inline void RepeatedField_1_AddRange_m7FB09C9454BA48E32A15881FF58843D28B361FD3 (RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58* __this, RuntimeObject* ___0_values, const RuntimeMethod* method)
+{
+	((  void (*) (RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58*, RuntimeObject*, const RuntimeMethod*))RepeatedField_1_AddRange_m219B6AFE63340C367145E7710FD09CAC8CA82CEA_gshared)(__this, ___0_values, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58* ClassifierOptions_get_CategoryDenylist_mED190D9A2836FE332FA9DED000C673C0EDB1F54F (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CalculatorOptions__ctor_m5718FDEC0DBE53443ABE5F84848A8F0409F7C774 (CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* AudioClassifierOptions_ToProto_m7DDCBF6E0A5F7866F158F7F41CBEDBB0197FDD90 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) ;
+inline void CalculatorOptions_SetExtension_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m27BC119F445700CF11B047048C9EB0F49D96F96A (CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* __this, Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771* ___0_extension, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078*, Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771*, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*, const RuntimeMethod*))CalculatorOptions_SetExtension_TisRuntimeObject_m7D138FD593E458326DE48D189B3131932B47AB2E_gshared)(__this, ___0_extension, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* Convert_FromBase64String_m267327B074B41D93C9622D142B95CFAA4ACCCA9C (String_t* ___0_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* CalculatorReflection_get_Descriptor_mB0693DB1386223ACDDD0A0CA4D72E572E8E63717 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* CalculatorOptionsReflection_get_Descriptor_mFC761E800B395DE267253DD4A680F7140A3368F1 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* ClassifierOptionsReflection_get_Descriptor_mA365BE259839A20979911AFEBEE8612E16C5226C (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* BaseOptionsReflection_get_Descriptor_m877A02B864FFA619B728C77DD697718F15E05F01 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* AudioClassifierGraphOptions_get_Parser_m8B485CDEA08E1B47655C470B31641893E6692F56 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedClrTypeInfo__ctor_m5F0B3E2F02BF50D81997F6B1E54DD261F2061108 (GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* __this, Type_t* ___0_clrType, MessageParser_tC9E617711ACDE0C5DABF25C755F4B86204C3775D* ___1_parser, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_propertyNames, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_oneofNames, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___4_nestedEnums, ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66* ___5_extensions, GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89* ___6_nestedTypes, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedClrTypeInfo__ctor_m6C6F4A657670674B74F3AF88AA06251E4C8DD022 (GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* __this, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___0_nestedEnums, ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66* ___1_extensions, GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89* ___2_nestedTypes, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* FileDescriptor_FromGeneratedCode_mE8458CBFAFB2D3121B5EFC55182A02EAC93E0823 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_descriptorData, FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F* ___1_dependencies, GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* ___2_generatedCodeInfo, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* AudioClassifierGraphOptionsReflection_get_Descriptor_mD6F9183FB98B97A5FD87B755D50DF69FBC9DDC62 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* FileDescriptor_get_MessageTypes_m0FB1C458BB323A507214648AC7944A9FBE4D3E78_inline (FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* AudioClassifierGraphOptions_get_Descriptor_m57AEF234DC5622AE05C490A5CD1D5C2CE6799E5E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* BaseOptions_Clone_m48F031DBEF57D56F07433454DD20396BDAFAFADB (BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* ClassifierOptions_Clone_m86248FF6536889929C7AFAB3313635A9944666AD (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* UnknownFieldSet_Clone_m018B3B5B0DB1F6CC6E3903223D20D3BD0CF4B723 (UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions__ctor_m58CDD3E28E89C1A01C7141726429F08CEF7BFD17 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClassifierGraphOptions_Equals_m6C9440001CE4EE8DF049DB39B6F5CF80FB043226 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_Equals_m434DF93FDA204D5C06E889A9CB53BC2E5D39ABF7 (RuntimeObject* ___0_objA, RuntimeObject* ___1_objB, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB* ProtobufEqualityComparers_get_BitwiseDoubleEqualityComparer_mE0E0358747BA998C14B09B00EF0EEC35FAD67189_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonFormatter_ToDiagnosticString_mC6580DDBB77AE9E5DDDE29D40761DE2250D3EC89 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CodedOutputStream_WriteRawMessage_m231876EE2FDAC3B4291A7EA7DB79014DD3BB3D7D (CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteContext_WriteRawTag_m80B3F0598884109F59783C975D1F9614E94A9022 (WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* __this, uint8_t ___0_b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteContext_WriteMessage_m2F77C0E66BE30E7D27F74713F4C2967F9CB67575 (WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteContext_WriteDouble_m69D9DDADB079FC8C652BBE0672212126C7BB66E6 (WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* __this, double ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnknownFieldSet_WriteTo_m8A7052C7DBB2FAA383BADB1260BD55DE99C1F476 (UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* __this, WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* ___0_ctx, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CodedOutputStream_ComputeMessageSize_m96CA0965A80BAE333592894886B82CF0F5B357C2 (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnknownFieldSet_CalculateSize_mC3223894C88C1B3431AA98F07AE75617EA0377D1 (UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseOptions__ctor_mAF7C5AB2D9959B901DE6A9848FC050549E1A9EC5 (BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseOptions_MergeFrom_mD334B785276924ECA50C872FBD9E055C9501335F (BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* __this, BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClassifierOptions_MergeFrom_m919978B43C00303EED9A2035BBFBAF8B165E2EF0 (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* __this, ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_set_DefaultInputAudioSampleRate_m5054F12647E2B1B1C58354D7AA2F06F4A57C85E0 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, double ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* UnknownFieldSet_MergeFrom_mC8E0E81668D9A72DC65B2C1671F991E6AA2BADA2 (UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ___0_unknownFields, UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ___1_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CodedInputStream_ReadRawMessage_m154E3B18A0C724A87A3C496CC2F6C36E1527C0EA (CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425* __this, RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* UnknownFieldSet_MergeFieldFrom_m68D9C117E929BA3B66E020F0B1768E65C8DCEE2F (UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* ___0_unknownFields, ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* ___1_ctx, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParseContext_ReadMessage_mEEAE6CBA9B5E75F1BB69069FF90376F64E16FA0F_inline (ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* __this, RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ParseContext_ReadDouble_m472E820A5560DEDA7DB0C3E9FBBAAB1D9889A521_inline (ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ParseContext_ReadTag_m01B263948EC529915711371EE50F8EAEB484E265_inline (ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* __this, const RuntimeMethod* method) ;
+inline void Func_1__ctor_m2C01099E9A7CFD137099395D338B385A97771D40 (Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void MessageParser_1__ctor_m37DD45A3AA1EC1BC45FA5F51479935C588968B27 (MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* __this, Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB* ___0_factory, const RuntimeMethod* method)
+{
+	((  void (*) (MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7*, Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB*, const RuntimeMethod*))MessageParser_1__ctor_m79DDE10FEBA79EB94DDBD4216164A97C85202DC8_gshared)(__this, ___0_factory, method);
+}
+inline FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08* FieldCodec_ForMessage_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m20035402BBAD43B13DDA67DB591218FF58B9D663 (uint32_t ___0_tag, MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* ___1_parser, const RuntimeMethod* method)
+{
+	return ((  FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08* (*) (uint32_t, MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7*, const RuntimeMethod*))FieldCodec_ForMessage_TisRuntimeObject_mBD1C61B94DF96267D57938C8C9B1E2F251A42F8A_gshared)(___0_tag, ___1_parser, method);
+}
+inline void Extension_2__ctor_m3696AA60A3E9BAD02C47F9374284256EE229E1CC (Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771* __this, int32_t ___0_fieldNumber, FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08* ___1_codec, const RuntimeMethod* method)
+{
+	((  void (*) (Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771*, int32_t, FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08*, const RuntimeMethod*))Extension_2__ctor_m9605F726AE8B4A943BD9D15EF699B895D3BA9940_gshared)(__this, ___0_fieldNumber, ___1_codec, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m881AE801BE867FEAC35535B96B3AF90F945E6F51 (U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParsingPrimitivesMessages_ReadMessage_mB316DADE7E701D2EA0E45CDB6100F4E3654C49EF (ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* ___0_ctx, RuntimeObject* ___1_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ParsingPrimitives_ParseDouble_m64081914C3D679EB6B86F5E435EFB7059F0A744F (ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D* ___0_buffer, ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C* ___1_state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ParsingPrimitives_ParseTag_mC3CDF9E540F71AEAB45BC4BAFAE69C8FB097DB64 (ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D* ___0_buffer, ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C* ___1_state, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_mFC07FE5105B4337EB2C78CD33D452E23C23B5EF6 (U3CU3Ec__DisplayClass19_0_t11B9D51A216EC00C728B4A174EEC179FAE4F02A3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0__ctor_mFC07FE5105B4337EB2C78CD33D452E23C23B5EF6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__DisplayClass19_0__ctor_mFC07FE5105B4337EB2C78CD33D452E23C23B5EF6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CBuildPacketsCallbackU3Eb__0_m4F5B7BCE7980358442478B6A15D6923FD1FBEECD (U3CU3Ec__DisplayClass19_0_t11B9D51A216EC00C728B4A174EEC179FAE4F02A3* __this, PacketMap_tFB07B43F40E7B3221BA65139695E756B3B195BEF* ___0_outputPackets, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PacketMap_At_TisClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_m974868461160611C604B5DD81B0A4413F6368B3C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Packet_1_IsEmpty_mAE16196DD6547627CB189039E5F329E6AD0FA9C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Packet_1_TimestampMicroseconds_m8B1A6EB7112AF3E83AAB97D18740C5C1EBDEF191_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_U3CBuildPacketsCallbackU3Eb__0_m4F5B7BCE7980358442478B6A15D6923FD1FBEECD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass19_0_t11B9D51A216EC00C728B4A174EEC179FAE4F02A3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA0A07EC46E74AD70EB4D6D16FB7448F35D8DB010);
+		s_Il2CppMethodInitialized = true;
+	}
+	Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* V_0 = NULL;
+	int64_t V_1 = 0;
+	bool V_2 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_outputPackets));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__DisplayClass19_0_U3CBuildPacketsCallbackU3Eb__0_m4F5B7BCE7980358442478B6A15D6923FD1FBEECD_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181030));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181031));
+	int32_t G_B4_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181032));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181033));
+		PacketMap_tFB07B43F40E7B3221BA65139695E756B3B195BEF* L_0 = ___0_outputPackets;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181034));
+		NullCheck(L_0);
+		Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* L_1;
+		L_1 = PacketMap_At_TisClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_m974868461160611C604B5DD81B0A4413F6368B3C(L_0, _stringLiteralA0A07EC46E74AD70EB4D6D16FB7448F35D8DB010, PacketMap_At_TisClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_m974868461160611C604B5DD81B0A4413F6368B3C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181034));
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0050:
+			{
+				STORE_TRY_ID(methodExecutionContext, -1);
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181047));
+					Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* L_2 = V_0;
+					if (!L_2)
+					{
+						goto IL_005a;
+					}
+				}
+				{
+					Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* L_3 = V_0;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181048));
+					NullCheck(L_3);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_3);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181048));
+				}
+
+IL_005a:
+				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181049));
+					return;
+				}
+			}
+		});
+		try
+		{
+			STORE_TRY_ID(methodExecutionContext, 0);
+			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181035));
+				Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* L_4 = V_0;
+				if (!L_4)
+				{
+					goto IL_0018_1;
+				}
+			}
+			{
+				Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* L_5 = V_0;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181036));
+				NullCheck(L_5);
+				bool L_6;
+				L_6 = Packet_1_IsEmpty_mAE16196DD6547627CB189039E5F329E6AD0FA9C0(L_5, Packet_1_IsEmpty_mAE16196DD6547627CB189039E5F329E6AD0FA9C0_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181036));
+				G_B4_0 = ((int32_t)(L_6));
+				goto IL_0019_1;
+			}
+
+IL_0018_1:
+			{
+				G_B4_0 = 1;
+			}
+
+IL_0019_1:
+			{
+				V_2 = (bool)G_B4_0;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181037));
+				bool L_7 = V_2;
+				if (!L_7)
+				{
+					goto IL_0020_1;
+				}
+			}
+			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181038));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181039));
+				goto IL_005b;
+			}
+
+IL_0020_1:
+			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181040));
+				Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* L_8 = V_0;
+				ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5* L_9 = (ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5*)(&__this->___result);
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181041));
+				PacketExtension_Get_m7A172BECCC9278D004AE7931A4823307863F7E86(L_8, L_9, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181041));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181042));
+				Packet_1_t2AD22F607F8F56871A0BFAB7056203D92FE6522A* L_10 = V_0;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181043));
+				NullCheck(L_10);
+				int64_t L_11;
+				L_11 = Packet_1_TimestampMicroseconds_m8B1A6EB7112AF3E83AAB97D18740C5C1EBDEF191(L_10, Packet_1_TimestampMicroseconds_m8B1A6EB7112AF3E83AAB97D18740C5C1EBDEF191_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181043));
+				V_1 = ((int64_t)(L_11/((int64_t)((int32_t)1000))));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181044));
+				ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* L_12 = __this->___resultCallback;
+				ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 L_13 = __this->___result;
+				int64_t L_14 = V_1;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181045));
+				NullCheck(L_12);
+				ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_inline(L_12, L_13, L_14, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181045));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181046));
+				goto IL_005b;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_005b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181050));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181051));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181052));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181053));
+		BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* L_0 = __this->___U3CbaseOptionsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181054));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181055));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181056));
+		int32_t L_0 = __this->___U3CrunningModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181057));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181058));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181059));
+		String_t* L_0 = __this->___U3CdisplayNamesLocaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181060));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181061));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181062));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = __this->___U3CmaxResultsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181063));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181064));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181065));
+		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_0 = __this->___U3CscoreThresholdU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181066));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181067));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181068));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CcategoryAllowListU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181069));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181070));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181071));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CcategoryDenyListU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* AudioClassifierOptions_get_resultCallback_mD830875FD7547058D5ABA1AFB31F53A25BF23ED7 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_resultCallback_mD830875FD7547058D5ABA1AFB31F53A25BF23ED7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_resultCallback_mD830875FD7547058D5ABA1AFB31F53A25BF23ED7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181072));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181073));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181074));
+		ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* L_0 = __this->___U3CresultCallbackU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierOptions__ctor_mC43E045A9F323178FB20C85A9E12F1A51CB160A2 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* ___0_baseOptions, int32_t ___1_runningMode, String_t* ___2_displayNamesLocale, Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___3_maxResults, Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 ___4_scoreThreshold, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___5_categoryAllowList, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___6_categoryDenyList, ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* ___7_resultCallback, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions__ctor_mC43E045A9F323178FB20C85A9E12F1A51CB160A2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_baseOptions), (&___1_runningMode), (&___2_displayNamesLocale), (&___3_maxResults), (&___4_scoreThreshold), (&___5_categoryAllowList), (&___6_categoryDenyList), (&___7_resultCallback));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions__ctor_mC43E045A9F323178FB20C85A9E12F1A51CB160A2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181075));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181076));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181077));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181078));
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181078));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181079));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181080));
+		BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* L_0 = ___0_baseOptions;
+		__this->___U3CbaseOptionsU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CbaseOptionsU3Ek__BackingField), (void*)L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181081));
+		int32_t L_1 = ___1_runningMode;
+		__this->___U3CrunningModeU3Ek__BackingField = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181082));
+		String_t* L_2 = ___2_displayNamesLocale;
+		__this->___U3CdisplayNamesLocaleU3Ek__BackingField = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdisplayNamesLocaleU3Ek__BackingField), (void*)L_2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181083));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_3 = ___3_maxResults;
+		__this->___U3CmaxResultsU3Ek__BackingField = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181084));
+		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_4 = ___4_scoreThreshold;
+		__this->___U3CscoreThresholdU3Ek__BackingField = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181085));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_5 = ___5_categoryAllowList;
+		__this->___U3CcategoryAllowListU3Ek__BackingField = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcategoryAllowListU3Ek__BackingField), (void*)L_5);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181086));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_6 = ___6_categoryDenyList;
+		__this->___U3CcategoryDenyListU3Ek__BackingField = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcategoryDenyListU3Ek__BackingField), (void*)L_6);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181087));
+		ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* L_7 = ___7_resultCallback;
+		__this->___U3CresultCallbackU3Ek__BackingField = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CresultCallbackU3Ek__BackingField), (void*)L_7);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181088));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* AudioClassifierOptions_ToProto_m7DDCBF6E0A5F7866F158F7F41CBEDBB0197FDD90 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_ToProto_m7DDCBF6E0A5F7866F158F7F41CBEDBB0197FDD90_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RepeatedField_1_AddRange_m7FB09C9454BA48E32A15881FF58843D28B361FD3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* V_0 = NULL;
+	ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* V_1 = NULL;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	bool V_5 = false;
+	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	bool V_10 = false;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* V_11 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_ToProto_m7DDCBF6E0A5F7866F158F7F41CBEDBB0197FDD90_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181089));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181090));
+	int32_t G_B5_0 = 0;
+	int32_t G_B10_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181091));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181092));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181093));
+		BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* L_0;
+		L_0 = AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181093));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181094));
+		NullCheck(L_0);
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_1;
+		L_1 = BaseOptions_ToProto_mA4BD49193BC86E22F66F5611CEC25EA3DD4F76AF(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181094));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181095));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181096));
+		int32_t L_3;
+		L_3 = AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181096));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181097));
+		NullCheck(L_2);
+		BaseOptions_set_UseStreamMode_m700BA3818DF305AEC5C0F2A3C2D288C52CE7A260(L_2, (bool)((!(((uint32_t)L_3) <= ((uint32_t)0)))? 1 : 0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181097));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181098));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181099));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_4 = (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)il2cpp_codegen_object_new(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_il2cpp_TypeInfo_var);
+		ClassifierOptions__ctor_m430CD704AF9C6CC371F21E5899CB4B2B6F759776(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181099));
+		V_1 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181100));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181101));
+		String_t* L_5;
+		L_5 = AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181101));
+		V_4 = (bool)((!(((RuntimeObject*)(String_t*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181102));
+		bool L_6 = V_4;
+		if (!L_6)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181103));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181104));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_7 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181105));
+		String_t* L_8;
+		L_8 = AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181105));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181106));
+		NullCheck(L_7);
+		ClassifierOptions_set_DisplayNamesLocale_m4163C5DB1C353ACB16E083470D53623AE6EEC9F8(L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181106));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181107));
+	}
+
+IL_0041:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181108));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181109));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_9;
+		L_9 = AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181109));
+		V_6 = L_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181110));
+		bool L_10;
+		L_10 = Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_inline((&V_6), Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181110));
+		if (!L_10)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181111));
+		int32_t L_11;
+		L_11 = Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_inline((&V_6), Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181111));
+		V_2 = L_11;
+		G_B5_0 = 1;
+		goto IL_005e;
+	}
+
+IL_005d:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_005e:
+	{
+		V_5 = (bool)G_B5_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181112));
+		bool L_12 = V_5;
+		if (!L_12)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181113));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181114));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_13 = V_1;
+		int32_t L_14 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181115));
+		NullCheck(L_13);
+		ClassifierOptions_set_MaxResults_m4AB86E7E4BDB5CC0C8D356499613768F95593AAE(L_13, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181115));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181116));
+	}
+
+IL_006e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181117));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181118));
+		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_15;
+		L_15 = AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181118));
+		V_8 = L_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181119));
+		bool L_16;
+		L_16 = Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline((&V_8), Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181119));
+		if (!L_16)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181120));
+		float L_17;
+		L_17 = Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_inline((&V_8), Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181120));
+		V_3 = L_17;
+		G_B10_0 = 1;
+		goto IL_008b;
+	}
+
+IL_008a:
+	{
+		G_B10_0 = 0;
+	}
+
+IL_008b:
+	{
+		V_7 = (bool)G_B10_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181121));
+		bool L_18 = V_7;
+		if (!L_18)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181122));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181123));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_19 = V_1;
+		float L_20 = V_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181124));
+		NullCheck(L_19);
+		ClassifierOptions_set_ScoreThreshold_m571C63F91F9E756A0F61F8CFD2C93A75C53EF63D(L_19, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181124));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181125));
+	}
+
+IL_009b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181126));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181127));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_21;
+		L_21 = AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181127));
+		V_9 = (bool)((!(((RuntimeObject*)(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)L_21) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181128));
+		bool L_22 = V_9;
+		if (!L_22)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181129));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181130));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_23 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181131));
+		NullCheck(L_23);
+		RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58* L_24;
+		L_24 = ClassifierOptions_get_CategoryAllowlist_m0BD85ED8942186FFBD30942A104FE8335ADA4FBB(L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181131));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181132));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_25;
+		L_25 = AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181132));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181133));
+		NullCheck(L_24);
+		RepeatedField_1_AddRange_m7FB09C9454BA48E32A15881FF58843D28B361FD3(L_24, L_25, RepeatedField_1_AddRange_m7FB09C9454BA48E32A15881FF58843D28B361FD3_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181133));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181134));
+	}
+
+IL_00be:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181135));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181136));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_26;
+		L_26 = AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181136));
+		V_10 = (bool)((!(((RuntimeObject*)(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)L_26) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181137));
+		bool L_27 = V_10;
+		if (!L_27)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181138));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181139));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_28 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181140));
+		NullCheck(L_28);
+		RepeatedField_1_tDBC9CC23DDC2FC0F87E34F80D66034BB0F149A58* L_29;
+		L_29 = ClassifierOptions_get_CategoryDenylist_mED190D9A2836FE332FA9DED000C673C0EDB1F54F(L_28, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181140));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181141));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_30;
+		L_30 = AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181141));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181142));
+		NullCheck(L_29);
+		RepeatedField_1_AddRange_m7FB09C9454BA48E32A15881FF58843D28B361FD3(L_29, L_30, RepeatedField_1_AddRange_m7FB09C9454BA48E32A15881FF58843D28B361FD3_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181142));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181143));
+	}
+
+IL_00e1:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181144));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181145));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_31 = (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)il2cpp_codegen_object_new(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2(L_31, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181145));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_32 = L_31;
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_33 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181146));
+		NullCheck(L_32);
+		AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB(L_32, L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181146));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_34 = L_32;
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_35 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181147));
+		NullCheck(L_34);
+		AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972(L_34, L_35, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181147));
+		V_11 = L_34;
+		goto IL_00fa;
+	}
+
+IL_00fa:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181148));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_36 = V_11;
+		return L_36;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* AudioClassifierOptions_Mediapipe_Tasks_Core_ITaskOptions_ToCalculatorOptions_m0F8BCE31883D3A32ADA9C32EF7FF0382305FF420 (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_Mediapipe_Tasks_Core_ITaskOptions_ToCalculatorOptions_m0F8BCE31883D3A32ADA9C32EF7FF0382305FF420_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CalculatorOptions_SetExtension_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m27BC119F445700CF11B047048C9EB0F49D96F96A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* V_0 = NULL;
+	CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* V_1 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_Mediapipe_Tasks_Core_ITaskOptions_ToCalculatorOptions_m0F8BCE31883D3A32ADA9C32EF7FF0382305FF420_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181149));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181150));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181151));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181152));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181153));
+		CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* L_0 = (CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078*)il2cpp_codegen_object_new(CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078_il2cpp_TypeInfo_var);
+		CalculatorOptions__ctor_m5718FDEC0DBE53443ABE5F84848A8F0409F7C774(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181153));
+		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181154));
+		CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* L_1 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var);
+		Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771* L_2 = ((Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_StaticFields*)il2cpp_codegen_static_fields_for(Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var))->___Ext;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181155));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_3;
+		L_3 = AudioClassifierOptions_ToProto_m7DDCBF6E0A5F7866F158F7F41CBEDBB0197FDD90(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181155));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181156));
+		NullCheck(L_1);
+		CalculatorOptions_SetExtension_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m27BC119F445700CF11B047048C9EB0F49D96F96A(L_1, L_2, L_3, CalculatorOptions_SetExtension_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m27BC119F445700CF11B047048C9EB0F49D96F96A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181156));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181157));
+		CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* L_4 = V_0;
+		V_1 = L_4;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181158));
+		CalculatorOptions_t552D31A6BC074BF06228A25B3C2CFA6CB156B078* L_5 = V_1;
+		return L_5;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_Multicast(ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___0_classificationResult, int64_t ___1_timestampMillisec, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* currentDelegate = reinterpret_cast<ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5, int64_t, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, ___0_classificationResult, ___1_timestampMillisec, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
+	}
+}
+void ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_OpenInst(ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___0_classificationResult, int64_t ___1_timestampMillisec, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5, int64_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(___0_classificationResult, ___1_timestampMillisec, method);
+}
+void ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_OpenStatic(ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___0_classificationResult, int64_t ___1_timestampMillisec, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5, int64_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr)(___0_classificationResult, ___1_timestampMillisec, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResultCallback__ctor_mD741F1B25CE461CB68A5DCCBC11971A0C6D028D4 (ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method = ___1_method;
+	__this->___m_target = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 2;
+		if (isOpen)
+			__this->___invoke_impl = (intptr_t)&ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_OpenStatic;
+		else
+			{
+				__this->___invoke_impl = __this->___method_ptr;
+				__this->___method_code = (intptr_t)__this->___m_target;
+			}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl = __this->___method_ptr;
+		__this->___method_code = (intptr_t)__this->___m_target;
+	}
+	__this->___extra_arg = (intptr_t)&ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_Multicast;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA (ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___0_classificationResult, int64_t ___1_timestampMillisec, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5, int64_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_classificationResult, ___1_timestampMillisec, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResultCallback_BeginInvoke_mA848F27E0EEB58310F9B4E4C00D96E3CCD6B95C2 (ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___0_classificationResult, int64_t ___1_timestampMillisec, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5_il2cpp_TypeInfo_var, &___0_classificationResult);
+	__d_args[1] = Box(il2cpp_defaults.int64_class, &___1_timestampMillisec);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResultCallback_EndInvoke_m1E736DF42EB1EFDAE520C9BF55664F81E65D360F (ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* AudioClassifierGraphOptionsReflection_get_Descriptor_mD6F9183FB98B97A5FD87B755D50DF69FBC9DDC62 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptionsReflection_get_Descriptor_mD6F9183FB98B97A5FD87B755D50DF69FBC9DDC62_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptionsReflection_get_Descriptor_mD6F9183FB98B97A5FD87B755D50DF69FBC9DDC62_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181159));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181160));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181161));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181162));
+		il2cpp_codegen_runtime_class_init_inline(AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var);
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_0 = ((AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var))->___descriptor;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181163));
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptionsReflection__cctor_mC1B3DB14E20D92175A27998C6579E3D65C33A510 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptionsReflection__cctor_mC1B3DB14E20D92175A27998C6579E3D65C33A510_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseOptionsReflection_tB81781DB528237F0D7D79F9485C0AEE7F5FC3612_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CalculatorOptionsReflection_t8F0355475D4B0B0F61B433C275C7BA154E147E35_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CalculatorReflection_tD19FF559F43712DC2DE422FAF0F1130A3733E6E5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClassifierOptionsReflection_t74025C3CC2494958CA23F7A9ED6CB573D54C602C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral26E20045EA9F6116BD43AFCFCF0ED6D6F6A24559);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27549DD0CBA9FA3DEEDA03CD0BA158009FEC4324);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29278CE4A68E7648BDF2DF19911E790E9875ECCB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3972F99975A955B92550A1EDCA7DDD148165D8C4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3E4F753B6503EE857DF96EB65B8BAA02FE70791A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4ED034CF4E9BDA5C3039D892624F4BE19ED87526);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral532B44DA709F3F8C707CA0D31CD8453A49492319);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5867FEEFB3DDF76FDEDB0E6BF0495634C018B30B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5E56A52FE3EC6D65731F0281D0A24072B5E43711);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral84CEE00D3876A4CD16D71D9FEE82720FACC285D1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral927FA99EF3EE4C1062B6B328F185FE7876DF48CB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral94F18F22D8928E4657BE1CD9C6C616EF33BBDEF2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral99D510433C08DE00463AE4AA2330FF8FCDA01385);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9A6B764A318756BDE839D06F47533AC1BBAEA309);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB14233800888093384A54A0D92F8877373AC6C3F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1B1CFB5DAB78750456809575D760F0C9129E810);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB567341740189586D7079721D1C01C2E143E8750);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDE50982A49D278925E51D9369AFB4822C611620E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2E1CB24DC378147EBB096E21B31C3E7FB5ABF55);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE99EADCD39E7BC7D340428230F4C3D18123C2E82);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEA0AA20E38658D224543DCED4181BBA15748482B);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptionsReflection__cctor_mC1B3DB14E20D92175A27998C6579E3D65C33A510_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181164));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181165));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181166));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181167));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)18));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralB567341740189586D7079721D1C01C2E143E8750);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral29278CE4A68E7648BDF2DF19911E790E9875ECCB);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = L_2;
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralE99EADCD39E7BC7D340428230F4C3D18123C2E82);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral9A6B764A318756BDE839D06F47533AC1BBAEA309);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDE50982A49D278925E51D9369AFB4822C611620E);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteral5867FEEFB3DDF76FDEDB0E6BF0495634C018B30B);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral4ED034CF4E9BDA5C3039D892624F4BE19ED87526);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)_stringLiteral84CEE00D3876A4CD16D71D9FEE82720FACC285D1);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_8;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(8), (String_t*)_stringLiteralB1B1CFB5DAB78750456809575D760F0C9129E810);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (String_t*)_stringLiteralEA0AA20E38658D224543DCED4181BBA15748482B);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (String_t*)_stringLiteral5E56A52FE3EC6D65731F0281D0A24072B5E43711);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (String_t*)_stringLiteralB14233800888093384A54A0D92F8877373AC6C3F);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (String_t*)_stringLiteral27549DD0CBA9FA3DEEDA03CD0BA158009FEC4324);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_13;
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (String_t*)_stringLiteral3972F99975A955B92550A1EDCA7DDD148165D8C4);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (String_t*)_stringLiteral99D510433C08DE00463AE4AA2330FF8FCDA01385);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (String_t*)_stringLiteral3E4F753B6503EE857DF96EB65B8BAA02FE70791A);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (String_t*)_stringLiteral94F18F22D8928E4657BE1CD9C6C616EF33BBDEF2);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = L_17;
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (String_t*)_stringLiteral26E20045EA9F6116BD43AFCFCF0ED6D6F6A24559);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181168));
+		String_t* L_19;
+		L_19 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181168));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181169));
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20;
+		L_20 = Convert_FromBase64String_m267327B074B41D93C9622D142B95CFAA4ACCCA9C(L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181169));
+		V_0 = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181170));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = V_0;
+		FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F* L_22 = (FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F*)(FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F*)SZArrayNew(FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F_il2cpp_TypeInfo_var, (uint32_t)4);
+		FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F* L_23 = L_22;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181171));
+		il2cpp_codegen_runtime_class_init_inline(CalculatorReflection_tD19FF559F43712DC2DE422FAF0F1130A3733E6E5_il2cpp_TypeInfo_var);
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_24;
+		L_24 = CalculatorReflection_get_Descriptor_mB0693DB1386223ACDDD0A0CA4D72E572E8E63717(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181171));
+		NullCheck(L_23);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE*)L_24);
+		FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F* L_25 = L_23;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181172));
+		il2cpp_codegen_runtime_class_init_inline(CalculatorOptionsReflection_t8F0355475D4B0B0F61B433C275C7BA154E147E35_il2cpp_TypeInfo_var);
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_26;
+		L_26 = CalculatorOptionsReflection_get_Descriptor_mFC761E800B395DE267253DD4A680F7140A3368F1(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181172));
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(1), (FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE*)L_26);
+		FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F* L_27 = L_25;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181173));
+		il2cpp_codegen_runtime_class_init_inline(ClassifierOptionsReflection_t74025C3CC2494958CA23F7A9ED6CB573D54C602C_il2cpp_TypeInfo_var);
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_28;
+		L_28 = ClassifierOptionsReflection_get_Descriptor_mA365BE259839A20979911AFEBEE8612E16C5226C(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181173));
+		NullCheck(L_27);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(2), (FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE*)L_28);
+		FileDescriptorU5BU5D_tA6F49087536E770627F6E0A2D6F6E4BE43C8840F* L_29 = L_27;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181174));
+		il2cpp_codegen_runtime_class_init_inline(BaseOptionsReflection_tB81781DB528237F0D7D79F9485C0AEE7F5FC3612_il2cpp_TypeInfo_var);
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_30;
+		L_30 = BaseOptionsReflection_get_Descriptor_m877A02B864FFA619B728C77DD697718F15E05F01(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181174));
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(3), (FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE*)L_30);
+		GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89* L_31 = (GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89*)(GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89*)SZArrayNew(GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89_il2cpp_TypeInfo_var, (uint32_t)1);
+		GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89* L_32 = L_31;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_33 = { reinterpret_cast<intptr_t> (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181175));
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_34;
+		L_34 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181175));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181176));
+		il2cpp_codegen_runtime_class_init_inline(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* L_35;
+		L_35 = AudioClassifierGraphOptions_get_Parser_m8B485CDEA08E1B47655C470B31641893E6692F56(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181176));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = L_36;
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralE2E1CB24DC378147EBB096E21B31C3E7FB5ABF55);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_38 = L_37;
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral532B44DA709F3F8C707CA0D31CD8453A49492319);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = L_38;
+		NullCheck(L_39);
+		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral927FA99EF3EE4C1062B6B328F185FE7876DF48CB);
+		ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66* L_40 = (ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66*)(ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66*)SZArrayNew(ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66_il2cpp_TypeInfo_var, (uint32_t)1);
+		ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66* L_41 = L_40;
+		il2cpp_codegen_runtime_class_init_inline(Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var);
+		Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771* L_42 = ((Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_StaticFields*)il2cpp_codegen_static_fields_for(Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var))->___Ext;
+		NullCheck(L_41);
+		ArrayElementTypeCheck (L_41, L_42);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(0), (Extension_t6E2FC60A8DDFF4D12FA92724730D9E893E680E7A*)L_42);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181177));
+		GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* L_43 = (GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E*)il2cpp_codegen_object_new(GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E_il2cpp_TypeInfo_var);
+		GeneratedClrTypeInfo__ctor_m5F0B3E2F02BF50D81997F6B1E54DD261F2061108(L_43, L_34, L_35, L_39, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL, L_41, (GeneratedClrTypeInfoU5BU5D_t01D717088F23D02567ED03E8AE5007AAE1EFCC89*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181177));
+		NullCheck(L_32);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(0), (GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E*)L_43);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181178));
+		GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E* L_44 = (GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E*)il2cpp_codegen_object_new(GeneratedClrTypeInfo_tB6E120D2F48AA6EA289C118CA93929A4D63A636E_il2cpp_TypeInfo_var);
+		GeneratedClrTypeInfo__ctor_m6C6F4A657670674B74F3AF88AA06251E4C8DD022(L_44, (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL, (ExtensionU5BU5D_tE4B8DCCB283298091BEF24AF8A8A83CA4CD23C66*)NULL, L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181178));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181179));
+		il2cpp_codegen_runtime_class_init_inline(FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE_il2cpp_TypeInfo_var);
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_45;
+		L_45 = FileDescriptor_FromGeneratedCode_mE8458CBFAFB2D3121B5EFC55182A02EAC93E0823(L_21, L_29, L_44, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181179));
+		((AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var))->___descriptor = L_45;
+		Il2CppCodeGenWriteBarrier((void**)(&((AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var))->___descriptor), (void*)L_45);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181180));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* AudioClassifierGraphOptions_get_Parser_m8B485CDEA08E1B47655C470B31641893E6692F56 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_get_Parser_m8B485CDEA08E1B47655C470B31641893E6692F56_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_get_Parser_m8B485CDEA08E1B47655C470B31641893E6692F56_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181181));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181182));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181183));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181184));
+		il2cpp_codegen_runtime_class_init_inline(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* L_0 = ((AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var))->____parser;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181185));
+		MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* AudioClassifierGraphOptions_get_Descriptor_m57AEF234DC5622AE05C490A5CD1D5C2CE6799E5E (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_get_Descriptor_m57AEF234DC5622AE05C490A5CD1D5C2CE6799E5E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IList_1_tCEDC36A5A241399DB682BDCFCB0F8D94F53F89FD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_get_Descriptor_m57AEF234DC5622AE05C490A5CD1D5C2CE6799E5E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181186));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181187));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181188));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181189));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181190));
+		il2cpp_codegen_runtime_class_init_inline(AudioClassifierGraphOptionsReflection_t71B9500757D286B4A2834EC6F1E2C72207169EC9_il2cpp_TypeInfo_var);
+		FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* L_0;
+		L_0 = AudioClassifierGraphOptionsReflection_get_Descriptor_mD6F9183FB98B97A5FD87B755D50DF69FBC9DDC62(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181190));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181191));
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = FileDescriptor_get_MessageTypes_m0FB1C458BB323A507214648AC7944A9FBE4D3E78_inline(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181191));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181192));
+		NullCheck(L_1);
+		MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* L_2;
+		L_2 = InterfaceFuncInvoker1< MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906*, int32_t >::Invoke(0, IList_1_tCEDC36A5A241399DB682BDCFCB0F8D94F53F89FD_il2cpp_TypeInfo_var, L_1, 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181192));
+		V_0 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181193));
+		MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IMessage_get_Descriptor_m86AA2FBF49E2EABDE96E95F1BFE26695DE27F086 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IMessage_get_Descriptor_m86AA2FBF49E2EABDE96E95F1BFE26695DE27F086_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IMessage_get_Descriptor_m86AA2FBF49E2EABDE96E95F1BFE26695DE27F086_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181194));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181195));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181196));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181197));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181198));
+		il2cpp_codegen_runtime_class_init_inline(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* L_0;
+		L_0 = AudioClassifierGraphOptions_get_Descriptor_m57AEF234DC5622AE05C490A5CD1D5C2CE6799E5E(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181198));
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181199));
+		MessageDescriptor_tEDA9F168F333065EF485C9A712910D335A3F0906* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181200));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181201));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181202));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181203));
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181203));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181204));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181205));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions__ctor_m58CDD3E28E89C1A01C7141726429F08CEF7BFD17 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions__ctor_m58CDD3E28E89C1A01C7141726429F08CEF7BFD17_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions__ctor_m58CDD3E28E89C1A01C7141726429F08CEF7BFD17_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181206));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181207));
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* G_B2_0 = NULL;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* G_B1_0 = NULL;
+	BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* G_B3_0 = NULL;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* G_B3_1 = NULL;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* G_B5_0 = NULL;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* G_B4_0 = NULL;
+	ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* G_B6_0 = NULL;
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* G_B6_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181208));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181209));
+		AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181209));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181210));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181211));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_0 = ___0_other;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->____hasBits0;
+		__this->____hasBits0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181212));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_2 = ___0_other;
+		NullCheck(L_2);
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_3 = L_2->___baseOptions_;
+		if (L_3)
+		{
+			G_B2_0 = __this;
+			goto IL_0020;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		G_B3_0 = ((BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)(NULL));
+		G_B3_1 = G_B1_0;
+		goto IL_002b;
+	}
+
+IL_0020:
+	{
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_4 = ___0_other;
+		NullCheck(L_4);
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_5 = L_4->___baseOptions_;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181213));
+		NullCheck(L_5);
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_6;
+		L_6 = BaseOptions_Clone_m48F031DBEF57D56F07433454DD20396BDAFAFADB(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181213));
+		G_B3_0 = L_6;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002b:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___baseOptions_ = G_B3_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___baseOptions_), (void*)G_B3_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181214));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_7 = ___0_other;
+		NullCheck(L_7);
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_8 = L_7->___classifierOptions_;
+		if (L_8)
+		{
+			G_B5_0 = __this;
+			goto IL_003c;
+		}
+		G_B4_0 = __this;
+	}
+	{
+		G_B6_0 = ((ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)(NULL));
+		G_B6_1 = G_B4_0;
+		goto IL_0047;
+	}
+
+IL_003c:
+	{
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_9 = ___0_other;
+		NullCheck(L_9);
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_10 = L_9->___classifierOptions_;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181215));
+		NullCheck(L_10);
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_11;
+		L_11 = ClassifierOptions_Clone_m86248FF6536889929C7AFAB3313635A9944666AD(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181215));
+		G_B6_0 = L_11;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0047:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->___classifierOptions_ = G_B6_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B6_1->___classifierOptions_), (void*)G_B6_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181216));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_12 = ___0_other;
+		NullCheck(L_12);
+		double L_13 = L_12->___defaultInputAudioSampleRate_;
+		__this->___defaultInputAudioSampleRate_ = L_13;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181217));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_14 = ___0_other;
+		NullCheck(L_14);
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_15 = L_14->____unknownFields;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181218));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_16;
+		L_16 = UnknownFieldSet_Clone_m018B3B5B0DB1F6CC6E3903223D20D3BD0CF4B723(L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181218));
+		__this->____unknownFields = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____unknownFields), (void*)L_16);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181219));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* AudioClassifierGraphOptions_Clone_m1C83B6D07F5626C18D02AFE9215E8DB02C37FFA4 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_Clone_m1C83B6D07F5626C18D02AFE9215E8DB02C37FFA4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_Clone_m1C83B6D07F5626C18D02AFE9215E8DB02C37FFA4_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181220));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181221));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181222));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181223));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181224));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_0 = (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)il2cpp_codegen_object_new(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		AudioClassifierGraphOptions__ctor_m58CDD3E28E89C1A01C7141726429F08CEF7BFD17(L_0, __this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181224));
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181225));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181226));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181227));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181228));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181229));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_0 = __this->___baseOptions_;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181230));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181231));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181232));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181233));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181234));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_0 = ___0_value;
+		__this->___baseOptions_ = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___baseOptions_), (void*)L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181235));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181236));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181237));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181238));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181239));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_0 = __this->___classifierOptions_;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181240));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181241));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181242));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181243));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181244));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_0 = ___0_value;
+		__this->___classifierOptions_ = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___classifierOptions_), (void*)L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181245));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	double V_1 = 0.0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181246));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181247));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181248));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181249));
+		int32_t L_0 = __this->____hasBits0;
+		V_0 = (bool)((!(((uint32_t)((int32_t)(L_0&1))) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181250));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181251));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181252));
+		double L_2 = __this->___defaultInputAudioSampleRate_;
+		V_1 = L_2;
+		goto IL_0023;
+	}
+
+IL_001a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181253));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181254));
+		il2cpp_codegen_runtime_class_init_inline(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		double L_3 = ((AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var))->___DefaultInputAudioSampleRateDefaultValue;
+		V_1 = L_3;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181255));
+		double L_4 = V_1;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_set_DefaultInputAudioSampleRate_m5054F12647E2B1B1C58354D7AA2F06F4A57C85E0 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, double ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_set_DefaultInputAudioSampleRate_m5054F12647E2B1B1C58354D7AA2F06F4A57C85E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_set_DefaultInputAudioSampleRate_m5054F12647E2B1B1C58354D7AA2F06F4A57C85E0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181256));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181257));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181258));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181259));
+		int32_t L_0 = __this->____hasBits0;
+		__this->____hasBits0 = ((int32_t)(L_0|1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181260));
+		double L_1 = ___0_value;
+		__this->___defaultInputAudioSampleRate_ = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181261));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181262));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181263));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181264));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181265));
+		int32_t L_0 = __this->____hasBits0;
+		V_0 = (bool)((!(((uint32_t)((int32_t)(L_0&1))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181266));
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_ClearDefaultInputAudioSampleRate_m891F0C05DCC25E714A00CC2904EFD0149CAF88AA (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_ClearDefaultInputAudioSampleRate_m891F0C05DCC25E714A00CC2904EFD0149CAF88AA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_ClearDefaultInputAudioSampleRate_m891F0C05DCC25E714A00CC2904EFD0149CAF88AA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181267));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181268));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181269));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181270));
+		int32_t L_0 = __this->____hasBits0;
+		__this->____hasBits0 = ((int32_t)(L_0&((int32_t)-2)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181271));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClassifierGraphOptions_Equals_m8A434076653533D18D3E37A7D980885073FD46AA (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_Equals_m8A434076653533D18D3E37A7D980885073FD46AA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_Equals_m8A434076653533D18D3E37A7D980885073FD46AA_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181272));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181273));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181274));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181275));
+		RuntimeObject* L_0 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181276));
+		bool L_1;
+		L_1 = AudioClassifierGraphOptions_Equals_m6C9440001CE4EE8DF049DB39B6F5CF80FB043226(__this, ((AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)IsInstSealed((RuntimeObject*)L_0, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181276));
+		V_0 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181277));
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClassifierGraphOptions_Equals_m6C9440001CE4EE8DF049DB39B6F5CF80FB043226 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_Equals_m6C9440001CE4EE8DF049DB39B6F5CF80FB043226_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_Equals_m6C9440001CE4EE8DF049DB39B6F5CF80FB043226_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181278));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181279));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181280));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181281));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_0 = ___0_other;
+		V_0 = (bool)((((RuntimeObject*)(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181282));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181283));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181284));
+		V_1 = (bool)0;
+		goto IL_008c;
+	}
+
+IL_000e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181285));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_2 = ___0_other;
+		V_2 = (bool)((((RuntimeObject*)(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)L_2) == ((RuntimeObject*)(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)__this))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181286));
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181287));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181288));
+		V_1 = (bool)1;
+		goto IL_008c;
+	}
+
+IL_001b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181289));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181290));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_4;
+		L_4 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181290));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_5 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181291));
+		NullCheck(L_5);
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_6;
+		L_6 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181291));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181292));
+		bool L_7;
+		L_7 = Object_Equals_m434DF93FDA204D5C06E889A9CB53BC2E5D39ABF7(L_4, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181292));
+		V_3 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181293));
+		bool L_8 = V_3;
+		if (!L_8)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181294));
+		V_1 = (bool)0;
+		goto IL_008c;
+	}
+
+IL_0037:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181295));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181296));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_9;
+		L_9 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181296));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_10 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181297));
+		NullCheck(L_10);
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_11;
+		L_11 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181297));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181298));
+		bool L_12;
+		L_12 = Object_Equals_m434DF93FDA204D5C06E889A9CB53BC2E5D39ABF7(L_9, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181298));
+		V_4 = (bool)((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181299));
+		bool L_13 = V_4;
+		if (!L_13)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181300));
+		V_1 = (bool)0;
+		goto IL_008c;
+	}
+
+IL_0055:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181301));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181302));
+		il2cpp_codegen_runtime_class_init_inline(ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var);
+		EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB* L_14;
+		L_14 = ProtobufEqualityComparers_get_BitwiseDoubleEqualityComparer_mE0E0358747BA998C14B09B00EF0EEC35FAD67189_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181302));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181303));
+		double L_15;
+		L_15 = AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181303));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_16 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181304));
+		NullCheck(L_16);
+		double L_17;
+		L_17 = AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5(L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181304));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181305));
+		NullCheck(L_14);
+		bool L_18;
+		L_18 = VirtualFuncInvoker2< bool, double, double >::Invoke(8, L_14, L_15, L_17);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181305));
+		V_5 = (bool)((((int32_t)L_18) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181306));
+		bool L_19 = V_5;
+		if (!L_19)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181307));
+		V_1 = (bool)0;
+		goto IL_008c;
+	}
+
+IL_0078:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181308));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_20 = __this->____unknownFields;
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_21 = ___0_other;
+		NullCheck(L_21);
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_22 = L_21->____unknownFields;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181309));
+		bool L_23;
+		L_23 = Object_Equals_m434DF93FDA204D5C06E889A9CB53BC2E5D39ABF7(L_20, L_22, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181309));
+		V_1 = L_23;
+		goto IL_008c;
+	}
+
+IL_008c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181310));
+		bool L_24 = V_1;
+		return L_24;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClassifierGraphOptions_GetHashCode_m26D986413A086CB8BE7811C7379291689E77F1FD (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_GetHashCode_m26D986413A086CB8BE7811C7379291689E77F1FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_GetHashCode_m26D986413A086CB8BE7811C7379291689E77F1FD_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181311));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181312));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181313));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181314));
+		V_0 = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181315));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_0 = __this->___baseOptions_;
+		V_1 = (bool)((!(((RuntimeObject*)(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181316));
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181317));
+		int32_t L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181318));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_3;
+		L_3 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181318));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181319));
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_3);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181319));
+		V_0 = ((int32_t)(L_2^L_4));
+	}
+
+IL_001e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181320));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_5 = __this->___classifierOptions_;
+		V_2 = (bool)((!(((RuntimeObject*)(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181321));
+		bool L_6 = V_2;
+		if (!L_6)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181322));
+		int32_t L_7 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181323));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_8;
+		L_8 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181323));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181324));
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_8);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181324));
+		V_0 = ((int32_t)(L_7^L_9));
+	}
+
+IL_0039:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181325));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181326));
+		bool L_10;
+		L_10 = AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181326));
+		V_3 = L_10;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181327));
+		bool L_11 = V_3;
+		if (!L_11)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181328));
+		int32_t L_12 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181329));
+		il2cpp_codegen_runtime_class_init_inline(ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var);
+		EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB* L_13;
+		L_13 = ProtobufEqualityComparers_get_BitwiseDoubleEqualityComparer_mE0E0358747BA998C14B09B00EF0EEC35FAD67189_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181329));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181330));
+		double L_14;
+		L_14 = AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181330));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181331));
+		NullCheck(L_13);
+		int32_t L_15;
+		L_15 = VirtualFuncInvoker1< int32_t, double >::Invoke(9, L_13, L_14);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181331));
+		V_0 = ((int32_t)(L_12^L_15));
+	}
+
+IL_0056:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181332));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_16 = __this->____unknownFields;
+		V_4 = (bool)((!(((RuntimeObject*)(UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26*)L_16) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181333));
+		bool L_17 = V_4;
+		if (!L_17)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181334));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181335));
+		int32_t L_18 = V_0;
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_19 = __this->____unknownFields;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181336));
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_19);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181336));
+		V_0 = ((int32_t)(L_18^L_20));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181337));
+	}
+
+IL_0075:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181338));
+		int32_t L_21 = V_0;
+		V_5 = L_21;
+		goto IL_007a;
+	}
+
+IL_007a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181339));
+		int32_t L_22 = V_5;
+		return L_22;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AudioClassifierGraphOptions_ToString_m5D206436B286936B031B6DFF6D771E45B89D133E (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_ToString_m5D206436B286936B031B6DFF6D771E45B89D133E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonFormatter_tC07776B90541EC7D8AEBA95C09920E667FAE5B3B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_ToString_m5D206436B286936B031B6DFF6D771E45B89D133E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181340));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181341));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181342));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181343));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181344));
+		il2cpp_codegen_runtime_class_init_inline(JsonFormatter_tC07776B90541EC7D8AEBA95C09920E667FAE5B3B_il2cpp_TypeInfo_var);
+		String_t* L_0;
+		L_0 = JsonFormatter_ToDiagnosticString_mC6580DDBB77AE9E5DDDE29D40761DE2250D3EC89(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181344));
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181345));
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_WriteTo_m7241A8D2C29B464726FD9B79B983D78B839EC4E9 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163* ___0_output, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_WriteTo_m7241A8D2C29B464726FD9B79B983D78B839EC4E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_output));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_WriteTo_m7241A8D2C29B464726FD9B79B983D78B839EC4E9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181346));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181347));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181348));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181349));
+		CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163* L_0 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181350));
+		NullCheck(L_0);
+		CodedOutputStream_WriteRawMessage_m231876EE2FDAC3B4291A7EA7DB79014DD3BB3D7D(L_0, __this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181350));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181351));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalWriteTo_m4E968765E062CE0ABA98685D4EE400598A7F1E18 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* ___0_output, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalWriteTo_m4E968765E062CE0ABA98685D4EE400598A7F1E18_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_output));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalWriteTo_m4E968765E062CE0ABA98685D4EE400598A7F1E18_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181352));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181353));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181354));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181355));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_0 = __this->___baseOptions_;
+		V_0 = (bool)((!(((RuntimeObject*)(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181356));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181357));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181358));
+		WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* L_2 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181359));
+		WriteContext_WriteRawTag_m80B3F0598884109F59783C975D1F9614E94A9022(L_2, (uint8_t)((int32_t)10), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181359));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181360));
+		WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* L_3 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181361));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_4;
+		L_4 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181361));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181362));
+		WriteContext_WriteMessage_m2F77C0E66BE30E7D27F74713F4C2967F9CB67575(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181362));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181363));
+	}
+
+IL_0026:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181364));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_5 = __this->___classifierOptions_;
+		V_1 = (bool)((!(((RuntimeObject*)(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181365));
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181366));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181367));
+		WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* L_7 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181368));
+		WriteContext_WriteRawTag_m80B3F0598884109F59783C975D1F9614E94A9022(L_7, (uint8_t)((int32_t)18), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181368));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181369));
+		WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* L_8 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181370));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_9;
+		L_9 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181370));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181371));
+		WriteContext_WriteMessage_m2F77C0E66BE30E7D27F74713F4C2967F9CB67575(L_8, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181371));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181372));
+	}
+
+IL_004b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181373));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181374));
+		bool L_10;
+		L_10 = AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181374));
+		V_2 = L_10;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181375));
+		bool L_11 = V_2;
+		if (!L_11)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181376));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181377));
+		WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* L_12 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181378));
+		WriteContext_WriteRawTag_m80B3F0598884109F59783C975D1F9614E94A9022(L_12, (uint8_t)((int32_t)25), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181378));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181379));
+		WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* L_13 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181380));
+		double L_14;
+		L_14 = AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181380));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181381));
+		WriteContext_WriteDouble_m69D9DDADB079FC8C652BBE0672212126C7BB66E6(L_13, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181381));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181382));
+	}
+
+IL_006d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181383));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_15 = __this->____unknownFields;
+		V_3 = (bool)((!(((RuntimeObject*)(UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26*)L_15) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181384));
+		bool L_16 = V_3;
+		if (!L_16)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181385));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181386));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_17 = __this->____unknownFields;
+		WriteContext_tF80B3959AE2E6F9D5F8D447B35D859DA2ABD226D* L_18 = ___0_output;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181387));
+		NullCheck(L_17);
+		UnknownFieldSet_WriteTo_m8A7052C7DBB2FAA383BADB1260BD55DE99C1F476(L_17, L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181387));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181388));
+	}
+
+IL_0089:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181389));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClassifierGraphOptions_CalculateSize_m244A9367F59CAA3B6C9FE0FCB6C0A117F18D2DD2 (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_CalculateSize_m244A9367F59CAA3B6C9FE0FCB6C0A117F18D2DD2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_CalculateSize_m244A9367F59CAA3B6C9FE0FCB6C0A117F18D2DD2_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181390));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181391));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181392));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181393));
+		V_0 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181394));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_0 = __this->___baseOptions_;
+		V_1 = (bool)((!(((RuntimeObject*)(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181395));
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181396));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181397));
+		int32_t L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181398));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_3;
+		L_3 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181398));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181399));
+		il2cpp_codegen_runtime_class_init_inline(CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = CodedOutputStream_ComputeMessageSize_m96CA0965A80BAE333592894886B82CF0F5B357C2(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181399));
+		V_0 = ((int32_t)il2cpp_codegen_add(L_2, ((int32_t)il2cpp_codegen_add(1, L_4))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181400));
+	}
+
+IL_0022:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181401));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_5 = __this->___classifierOptions_;
+		V_2 = (bool)((!(((RuntimeObject*)(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181402));
+		bool L_6 = V_2;
+		if (!L_6)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181403));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181404));
+		int32_t L_7 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181405));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_8;
+		L_8 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181405));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181406));
+		il2cpp_codegen_runtime_class_init_inline(CodedOutputStream_tEA7C97F94CE101273611192E2A22CD872F584163_il2cpp_TypeInfo_var);
+		int32_t L_9;
+		L_9 = CodedOutputStream_ComputeMessageSize_m96CA0965A80BAE333592894886B82CF0F5B357C2(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181406));
+		V_0 = ((int32_t)il2cpp_codegen_add(L_7, ((int32_t)il2cpp_codegen_add(1, L_9))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181407));
+	}
+
+IL_0041:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181408));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181409));
+		bool L_10;
+		L_10 = AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181409));
+		V_3 = L_10;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181410));
+		bool L_11 = V_3;
+		if (!L_11)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181411));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181412));
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_12, ((int32_t)9)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181413));
+	}
+
+IL_0052:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181414));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_13 = __this->____unknownFields;
+		V_4 = (bool)((!(((RuntimeObject*)(UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26*)L_13) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181415));
+		bool L_14 = V_4;
+		if (!L_14)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181416));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181417));
+		int32_t L_15 = V_0;
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_16 = __this->____unknownFields;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181418));
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = UnknownFieldSet_CalculateSize_mC3223894C88C1B3431AA98F07AE75617EA0377D1(L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181418));
+		V_0 = ((int32_t)il2cpp_codegen_add(L_15, L_17));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181419));
+	}
+
+IL_0071:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181420));
+		int32_t L_18 = V_0;
+		V_5 = L_18;
+		goto IL_0076;
+	}
+
+IL_0076:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181421));
+		int32_t L_19 = V_5;
+		return L_19;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_MergeFrom_mBD083E663A87286F511AF7D9A4104426DD9C994C (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_MergeFrom_mBD083E663A87286F511AF7D9A4104426DD9C994C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_MergeFrom_mBD083E663A87286F511AF7D9A4104426DD9C994C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181422));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181423));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181424));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181425));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_0 = ___0_other;
+		V_0 = (bool)((((RuntimeObject*)(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181426));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181427));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181428));
+		goto IL_00bb;
+	}
+
+IL_000f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181429));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_2 = ___0_other;
+		NullCheck(L_2);
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_3 = L_2->___baseOptions_;
+		V_1 = (bool)((!(((RuntimeObject*)(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)L_3) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181430));
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181431));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181432));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_5 = __this->___baseOptions_;
+		V_2 = (bool)((((RuntimeObject*)(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181433));
+		bool L_6 = V_2;
+		if (!L_6)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181434));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181435));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181436));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_7 = (BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)il2cpp_codegen_object_new(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_il2cpp_TypeInfo_var);
+		BaseOptions__ctor_mAF7C5AB2D9959B901DE6A9848FC050549E1A9EC5(L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181436));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181437));
+		AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB(__this, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181437));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181438));
+	}
+
+IL_0038:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181439));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181440));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_8;
+		L_8 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181440));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_9 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181441));
+		NullCheck(L_9);
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_10;
+		L_10 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181441));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181442));
+		NullCheck(L_8);
+		BaseOptions_MergeFrom_mD334B785276924ECA50C872FBD9E055C9501335F(L_8, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181442));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181443));
+	}
+
+IL_004b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181444));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_11 = ___0_other;
+		NullCheck(L_11);
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_12 = L_11->___classifierOptions_;
+		V_3 = (bool)((!(((RuntimeObject*)(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)L_12) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181445));
+		bool L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181446));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181447));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_14 = __this->___classifierOptions_;
+		V_4 = (bool)((((RuntimeObject*)(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)L_14) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181448));
+		bool L_15 = V_4;
+		if (!L_15)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181449));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181450));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181451));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_16 = (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)il2cpp_codegen_object_new(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_il2cpp_TypeInfo_var);
+		ClassifierOptions__ctor_m430CD704AF9C6CC371F21E5899CB4B2B6F759776(L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181451));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181452));
+		AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972(__this, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181452));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181453));
+	}
+
+IL_0076:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181454));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181455));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_17;
+		L_17 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181455));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_18 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181456));
+		NullCheck(L_18);
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_19;
+		L_19 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181456));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181457));
+		NullCheck(L_17);
+		ClassifierOptions_MergeFrom_m919978B43C00303EED9A2035BBFBAF8B165E2EF0(L_17, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181457));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181458));
+	}
+
+IL_0089:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181459));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_20 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181460));
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = AudioClassifierGraphOptions_get_HasDefaultInputAudioSampleRate_mCC708FB9910BC5CBD46D6F769D9DCDE563866A11(L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181460));
+		V_5 = L_21;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181461));
+		bool L_22 = V_5;
+		if (!L_22)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181462));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181463));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_23 = ___0_other;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181464));
+		NullCheck(L_23);
+		double L_24;
+		L_24 = AudioClassifierGraphOptions_get_DefaultInputAudioSampleRate_mF9B8DD5DB5A8F9C432C5CCDBDBA82EA6A7C600C5(L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181464));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181465));
+		AudioClassifierGraphOptions_set_DefaultInputAudioSampleRate_m5054F12647E2B1B1C58354D7AA2F06F4A57C85E0(__this, L_24, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181465));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181466));
+	}
+
+IL_00a4:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181467));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_25 = __this->____unknownFields;
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_26 = ___0_other;
+		NullCheck(L_26);
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_27 = L_26->____unknownFields;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181468));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_28;
+		L_28 = UnknownFieldSet_MergeFrom_mC8E0E81668D9A72DC65B2C1671F991E6AA2BADA2(L_25, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181468));
+		__this->____unknownFields = L_28;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____unknownFields), (void*)L_28);
+	}
+
+IL_00bb:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181469));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_MergeFrom_m807952E71ADD5F65797AB414366B68F66DCDF0EF (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425* ___0_input, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_MergeFrom_m807952E71ADD5F65797AB414366B68F66DCDF0EF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_MergeFrom_m807952E71ADD5F65797AB414366B68F66DCDF0EF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181470));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181471));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181472));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181473));
+		CodedInputStream_t271CAE9006F3226F28E8F9FCF8E2B0C35E64B425* L_0 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181474));
+		NullCheck(L_0);
+		CodedInputStream_ReadRawMessage_m154E3B18A0C724A87A3C496CC2F6C36E1527C0EA(L_0, __this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181474));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181475));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalMergeFrom_mCB8FC0AC1BEF3565CBC2241A681567D5E045BAAD (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* __this, ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* ___0_input, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalMergeFrom_mCB8FC0AC1BEF3565CBC2241A681567D5E045BAAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions_pbU3AU3AGoogle_Protobuf_IBufferMessage_InternalMergeFrom_mCB8FC0AC1BEF3565CBC2241A681567D5E045BAAD_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181476));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181477));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181478));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181479));
+		goto IL_009d;
+	}
+
+IL_0006:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181480));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181481));
+		uint32_t L_0 = V_0;
+		V_2 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181482));
+		uint32_t L_1 = V_2;
+		V_1 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181483));
+		uint32_t L_2 = V_1;
+		if ((((int32_t)L_2) == ((int32_t)((int32_t)10))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		uint32_t L_3 = V_1;
+		if ((((int32_t)L_3) == ((int32_t)((int32_t)18))))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		uint32_t L_4 = V_1;
+		if ((((int32_t)L_4) == ((int32_t)((int32_t)25))))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181484));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_5 = __this->____unknownFields;
+		ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* L_6 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181485));
+		UnknownFieldSet_t5ED5C86160FCBB24A3AD04CB9E37F0811D9BFA26* L_7;
+		L_7 = UnknownFieldSet_MergeFieldFrom_m68D9C117E929BA3B66E020F0B1768E65C8DCEE2F(L_5, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181485));
+		__this->____unknownFields = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____unknownFields), (void*)L_7);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181486));
+		goto IL_009c;
+	}
+
+IL_0034:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181487));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181488));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_8 = __this->___baseOptions_;
+		V_3 = (bool)((((RuntimeObject*)(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)L_8) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181489));
+		bool L_9 = V_3;
+		if (!L_9)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181490));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181491));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181492));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_10 = (BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F*)il2cpp_codegen_object_new(BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F_il2cpp_TypeInfo_var);
+		BaseOptions__ctor_mAF7C5AB2D9959B901DE6A9848FC050549E1A9EC5(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181492));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181493));
+		AudioClassifierGraphOptions_set_BaseOptions_m63758A5BF4D9DE60EE148C9DFF9A2F97BDC024AB(__this, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181493));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181494));
+	}
+
+IL_0050:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181495));
+		ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* L_11 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181496));
+		BaseOptions_tD0B86DBC457222FDBA34A9CCF324D7E9EB87D82F* L_12;
+		L_12 = AudioClassifierGraphOptions_get_BaseOptions_mAC7724BC2537B217F660B86F4BC524A20BF644A1(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181496));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181497));
+		ParseContext_ReadMessage_mEEAE6CBA9B5E75F1BB69069FF90376F64E16FA0F_inline(L_11, L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181497));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181498));
+		goto IL_009c;
+	}
+
+IL_005f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181499));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181500));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_13 = __this->___classifierOptions_;
+		V_4 = (bool)((((RuntimeObject*)(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)L_13) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181501));
+		bool L_14 = V_4;
+		if (!L_14)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181502));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181503));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181504));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_15 = (ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E*)il2cpp_codegen_object_new(ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E_il2cpp_TypeInfo_var);
+		ClassifierOptions__ctor_m430CD704AF9C6CC371F21E5899CB4B2B6F759776(L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181504));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181505));
+		AudioClassifierGraphOptions_set_ClassifierOptions_m56A9E56CF5E7BC3D0271D3657277A644F0755972(__this, L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181505));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181506));
+	}
+
+IL_007d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181507));
+		ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* L_16 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181508));
+		ClassifierOptions_tADA5DB36500AFBC0E024D21D2D8F51DC8E29419E* L_17;
+		L_17 = AudioClassifierGraphOptions_get_ClassifierOptions_mE49AC1E0AB53D8165B8EEC2A15454E7DB6E2C750(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181508));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181509));
+		ParseContext_ReadMessage_mEEAE6CBA9B5E75F1BB69069FF90376F64E16FA0F_inline(L_16, L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181509));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181510));
+		goto IL_009c;
+	}
+
+IL_008c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181511));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181512));
+		ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* L_18 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181513));
+		double L_19;
+		L_19 = ParseContext_ReadDouble_m472E820A5560DEDA7DB0C3E9FBBAAB1D9889A521_inline(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181513));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181514));
+		AudioClassifierGraphOptions_set_DefaultInputAudioSampleRate_m5054F12647E2B1B1C58354D7AA2F06F4A57C85E0(__this, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181514));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181515));
+		goto IL_009c;
+	}
+
+IL_009c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181516));
+	}
+
+IL_009d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181517));
+		ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* L_20 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181518));
+		uint32_t L_21;
+		L_21 = ParseContext_ReadTag_m01B263948EC529915711371EE50F8EAEB484E265_inline(L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181518));
+		uint32_t L_22 = L_21;
+		V_0 = L_22;
+		V_5 = (bool)((!(((uint32_t)L_22) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181519));
+		bool L_23 = V_5;
+		if (L_23)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181520));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioClassifierGraphOptions__cctor_mCD93CB1FE11F9C9B2C7C6F6237335EC03EABA740 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions__cctor_mCD93CB1FE11F9C9B2C7C6F6237335EC03EABA740_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MessageParser_1__ctor_m37DD45A3AA1EC1BC45FA5F51479935C588968B27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_cctorU3Eb__43_0_m8A82A85A5133F4E1628ABDEDFC469C73663CB8A3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierGraphOptions__cctor_mCD93CB1FE11F9C9B2C7C6F6237335EC03EABA740_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181521));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181522));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181523));
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var);
+		U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565* L_0 = ((U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var))->___U3CU3E9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181524));
+		Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB* L_1 = (Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB*)il2cpp_codegen_object_new(Func_1_tECD4401BAAA382AEE13613ED5347B016F511EAEB_il2cpp_TypeInfo_var);
+		Func_1__ctor_m2C01099E9A7CFD137099395D338B385A97771D40(L_1, L_0, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__43_0_m8A82A85A5133F4E1628ABDEDFC469C73663CB8A3_RuntimeMethod_var), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181524));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181525));
+		MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* L_2 = (MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7*)il2cpp_codegen_object_new(MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7_il2cpp_TypeInfo_var);
+		MessageParser_1__ctor_m37DD45A3AA1EC1BC45FA5F51479935C588968B27(L_2, L_1, MessageParser_1__ctor_m37DD45A3AA1EC1BC45FA5F51479935C588968B27_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181525));
+		((AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var))->____parser = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var))->____parser), (void*)L_2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181526));
+		((AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_StaticFields*)il2cpp_codegen_static_fields_for(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var))->___DefaultInputAudioSampleRateDefaultValue = (0.0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Extensions__cctor_mC74FC76C40A865CFD6F704A08DDD5CD857999A5A (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extension_2__ctor_m3696AA60A3E9BAD02C47F9374284256EE229E1CC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extensions__cctor_mC74FC76C40A865CFD6F704A08DDD5CD857999A5A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FieldCodec_ForMessage_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m20035402BBAD43B13DDA67DB591218FF58B9D663_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Extensions__cctor_mC74FC76C40A865CFD6F704A08DDD5CD857999A5A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181527));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181528));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181529));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181530));
+		il2cpp_codegen_runtime_class_init_inline(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		MessageParser_1_t33FF5261239F523B8B03C76691DA522DAA07C5E7* L_0;
+		L_0 = AudioClassifierGraphOptions_get_Parser_m8B485CDEA08E1B47655C470B31641893E6692F56(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181530));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181531));
+		FieldCodec_1_tA7F451AD0A4776669C286797615C77B765B0DF08* L_1;
+		L_1 = FieldCodec_ForMessage_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m20035402BBAD43B13DDA67DB591218FF58B9D663(((int32_t)-680920990), L_0, FieldCodec_ForMessage_TisAudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_m20035402BBAD43B13DDA67DB591218FF58B9D663_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181531));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181532));
+		Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771* L_2 = (Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771*)il2cpp_codegen_object_new(Extension_2_tFAD4D890BB96DDF4D476B31ADC84F9D16EAA3771_il2cpp_TypeInfo_var);
+		Extension_2__ctor_m3696AA60A3E9BAD02C47F9374284256EE229E1CC(L_2, ((int32_t)451755788), L_1, Extension_2__ctor_m3696AA60A3E9BAD02C47F9374284256EE229E1CC_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181532));
+		((Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_StaticFields*)il2cpp_codegen_static_fields_for(Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var))->___Ext = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_StaticFields*)il2cpp_codegen_static_fields_for(Extensions_t29A57F6CC0D955D005BD076F3C56A289AAEF4779_il2cpp_TypeInfo_var))->___Ext), (void*)L_2);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7708132701DA6A8C8594CAD65F3684AD94FB30E5 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__cctor_m7708132701DA6A8C8594CAD65F3684AD94FB30E5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__cctor_m7708132701DA6A8C8594CAD65F3684AD94FB30E5_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565* L_0 = (U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565*)il2cpp_codegen_object_new(U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_m881AE801BE867FEAC35535B96B3AF90F945E6F51(L_0, NULL);
+		((U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m881AE801BE867FEAC35535B96B3AF90F945E6F51 (U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__ctor_m881AE801BE867FEAC35535B96B3AF90F945E6F51_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__ctor_m881AE801BE867FEAC35535B96B3AF90F945E6F51_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* U3CU3Ec_U3C_cctorU3Eb__43_0_m8A82A85A5133F4E1628ABDEDFC469C73663CB8A3 (U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_cctorU3Eb__43_0_m8A82A85A5133F4E1628ABDEDFC469C73663CB8A3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t0B00F459FAD75CBAD7120E045AF6C720EAC59565_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3C_cctorU3Eb__43_0_m8A82A85A5133F4E1628ABDEDFC469C73663CB8A3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181533));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181534));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181535));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181536));
+		AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03* L_0 = (AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03*)il2cpp_codegen_object_new(AudioClassifierGraphOptions_t93CDA90298E7BCE6215562563B45E9F15986AE03_il2cpp_TypeInfo_var);
+		AudioClassifierGraphOptions__ctor_m521F5FFCE39783D84C12B4666250148D1A626BD2(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181536));
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ResultCallback_Invoke_mBDB89FC3922740387F401F8E79D9DC79984835AA_inline (ResultCallback_t86402E738A7C8CCD6040A130F6D9170CB6E2D95F* __this, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5 ___0_classificationResult, int64_t ___1_timestampMillisec, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, ClassificationResult_t87DACA6DDC5EE226D80303D731072B7D64D41DA5, int64_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_classificationResult, ___1_timestampMillisec, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_baseOptions_mFD27058713DC7D6ED47016DE730928C47B853BC1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181051));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181052));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181053));
+		BaseOptions_t11D1A4BDE25B7E079D06793C6DE35B145A6E8B69* L_0 = __this->___U3CbaseOptionsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_runningMode_m03E9F2A1A2CBA64108A5DD90D4FFE7D997CC2BCE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181054));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181055));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181056));
+		int32_t L_0 = __this->___U3CrunningModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_displayNamesLocale_mFA311B5BAA33E69FCDA79BA773A43A689F819189_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181057));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181058));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181059));
+		String_t* L_0 = __this->___U3CdisplayNamesLocaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_maxResults_m928B6DE152DCF05C86D9CDD7380138B78859F0E3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181060));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181061));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181062));
+		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 L_0 = __this->___U3CmaxResultsU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_scoreThreshold_m84925A3D934B6F26F934469A096F8415C6C745C7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181063));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181064));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181065));
+		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_0 = __this->___U3CscoreThresholdU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_categoryAllowList_m9DFF28A4E0E2DF6B7791708EBBD5BECAD8424EB2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181066));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181067));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181068));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CcategoryAllowListU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_inline (AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioClassifierOptions_t52E7BD683BDE0DEBBBDB3BF608BE644F11598B19_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AudioClassifierOptions_get_categoryDenyList_mB9C2F718603C8372C589260FCE8B0882BD896D4B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181069));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181070));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMediapipe_Runtime + 181071));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CcategoryDenyListU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* FileDescriptor_get_MessageTypes_m0FB1C458BB323A507214648AC7944A9FBE4D3E78_inline (FileDescriptor_t98C214A5F44C133FB506674D078903A5D4453CDE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileDescriptor_get_MessageTypes_m0FB1C458BB323A507214648AC7944A9FBE4D3E78_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FileDescriptor_get_MessageTypes_m0FB1C458BB323A507214648AC7944A9FBE4D3E78_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject* L_0 = __this->___U3CMessageTypesU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB* ProtobufEqualityComparers_get_BitwiseDoubleEqualityComparer_mE0E0358747BA998C14B09B00EF0EEC35FAD67189_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProtobufEqualityComparers_get_BitwiseDoubleEqualityComparer_mE0E0358747BA998C14B09B00EF0EEC35FAD67189_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ProtobufEqualityComparers_get_BitwiseDoubleEqualityComparer_mE0E0358747BA998C14B09B00EF0EEC35FAD67189_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var);
+		EqualityComparer_1_t5574F94668D24600F369D7DCE0505C0AEC9244EB* L_0 = ((ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_StaticFields*)il2cpp_codegen_static_fields_for(ProtobufEqualityComparers_t46743CDA0CA66B0BAED5D191D46D990A61282F09_il2cpp_TypeInfo_var))->___U3CBitwiseDoubleEqualityComparerU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParseContext_ReadMessage_mEEAE6CBA9B5E75F1BB69069FF90376F64E16FA0F_inline (ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* __this, RuntimeObject* ___0_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParseContext_ReadMessage_mEEAE6CBA9B5E75F1BB69069FF90376F64E16FA0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingPrimitivesMessages_t7E329824B6CDE2975470D909F2DB2073F4ACF0F2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParseContext_ReadMessage_mEEAE6CBA9B5E75F1BB69069FF90376F64E16FA0F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject* L_0 = ___0_message;
+		il2cpp_codegen_runtime_class_init_inline(ParsingPrimitivesMessages_t7E329824B6CDE2975470D909F2DB2073F4ACF0F2_il2cpp_TypeInfo_var);
+		ParsingPrimitivesMessages_ReadMessage_mB316DADE7E701D2EA0E45CDB6100F4E3654C49EF(__this, L_0, NULL);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ParseContext_ReadDouble_m472E820A5560DEDA7DB0C3E9FBBAAB1D9889A521_inline (ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParseContext_ReadDouble_m472E820A5560DEDA7DB0C3E9FBBAAB1D9889A521_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParseContext_ReadDouble_m472E820A5560DEDA7DB0C3E9FBBAAB1D9889A521_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D* L_0 = (ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D*)(&__this->___buffer);
+		ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C* L_1 = (ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C*)(&__this->___state);
+		double L_2;
+		L_2 = ParsingPrimitives_ParseDouble_m64081914C3D679EB6B86F5E435EFB7059F0A744F(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ParseContext_ReadTag_m01B263948EC529915711371EE50F8EAEB484E265_inline (ParseContext_tC04F8D72236E3ED9155AAD861769A3C56AEEB0EF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParseContext_ReadTag_m01B263948EC529915711371EE50F8EAEB484E265_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ParseContext_ReadTag_m01B263948EC529915711371EE50F8EAEB484E265_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D* L_0 = (ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D*)(&__this->___buffer);
+		ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C* L_1 = (ParserInternalState_t3044183736150999B222F94BFC5A875FA33EB36C*)(&__this->___state);
+		uint32_t L_2;
+		L_2 = ParsingPrimitives_ParseTag_mC3CDF9E540F71AEAB45BC4BAFAE69C8FB097DB64(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
+{
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		bool L_0 = __this->___hasValue;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
+{
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->___value;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_gshared_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method) 
+{
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		bool L_0 = __this->___hasValue;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_gshared_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method) 
+{
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		float L_0 = __this->___value;
+		return L_0;
+	}
+}
